@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>http://docs.vitasite.com/</loc>
+     <lastmod>2016-03-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://docs.vitasite.com/content/pages/</loc>
+     <lastmod>2016-03-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://docs.vitasite.com/content/content/</loc>
+     <lastmod>2016-03-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>
