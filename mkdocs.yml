@@ -12,3 +12,4 @@ site_author: Alliance Software
 site_description: 'Online documentation for the VitaSite Content Management System (CMS)'
 copyright: '&copy; Alliance Software. All Rights Reserved.'
 site_favicon: favicon.ico
+google_analytics: ['UA-81314-1', 'vitasite.com']
