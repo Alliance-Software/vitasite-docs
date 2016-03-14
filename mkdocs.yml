@@ -1,0 +1,14 @@
+site_name: Vitasite Documentation
+pages:
+- 'Get Started': index.md
+- Pages: content/pages.md
+- Content: content/content.md   
+theme: readthedocs
+markdown_extensions:
+    - admonition
+site_url: http://docs.vitasite.com
+repo_url: https://github.com/Alliance-Software/vitasite-docs
+site_author: Alliance Software
+site_description: 'Online documentation for the VitaSite Content Management System (CMS)'
+copyright: '&copy; Alliance Software. All Rights Reserved.'
+site_favicon: favicon.ico
