@@ -1,2 +1,48 @@
+/* Responsive Embed */
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 24px; } 
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/* CKEdtior Sprites */
+.sprite-wrap {padding-right: 20px; position: relative;}
+.sprite {position: absolute; top: 0; left: 0;}
+.sprite-bold {clip:rect(24px, 16px, 40px, 0); top: -24px;} /*1*/
+.sprite-italic {clip:rect(48px, 16px, 64px, 0); top: -48px;} /*2*/
+.sprite-strike {clip:rect(72px, 16px, 98px, 0); top: -72px;} /*3*/
+.sprite-sub {clip:rect(96px, 16px, 112px, 0); top: -96px;} /*4*/
+.sprite-super {clip:rect(120px, 16px, 136px, 0); top: -120px;} /*5*/
+.sprite-underline {clip:rect(144px, 16px, 160px, 0); top: -144px;} /*6*/
+.sprite-quote {clip:rect(168px, 16px, 184px, 0); top: -168px;} /*7*/
+.sprite-copy {clip:rect(216px, 16px, 232px, 0); top: -216px;} /*9*/
+.sprite-cut{clip:rect(264px, 16px, 280px, 0); top: -264px;} /*11*/
+.sprite-paste {clip:rect(312px, 16px, 328px, 0); top: -312px;} /*13*/
+.sprite-find {clip:rect(360px, 16px, 376px, 0); top: -360px;} /*15*/
+.sprite-replace {clip:rect(384px, 16px, 400px, 0); top: -384px;} /*16*/
+.sprite-hr {clip:rect(408px, 16px, 424px, 0); top: -408px;} /*17*/
+.sprite-iframe {clip:rect(432px, 16px, 448px, 0); top: -432px;} /*18*/
+.sprite-image {clip:rect(456px, 16px, 472px, 0); top: -456px;} /*19*/
+.sprite-indentr {clip:rect(504px, 16px, 520px, 0); top: -504px;} /*21*/
+.sprite-indentl {clip:rect(552px, 16px, 568px, 0); top: -552px;} /*23*/
+.sprite-anchor {clip:rect(600px, 16px, 616px, 0); top: -600px;} /*25*/
+.sprite-link {clip:rect(624px, 16px, 640px, 0); top: -624px;} /*26*/
+.sprite-xlink {clip:rect(648px, 16px, 664px, 0); top: -648px;} /*27*/
+.sprite-ul {clip:rect(696px, 16px, 712px, 0); top: -696px;} /*29*/
+.sprite-ol {clip:rect(744px, 16px, 760px, 0); top: -744px;} /*31*/
+.sprite-maximize {clip:rect(768px, 16px, 784px, 0); top: -768px;} /*32*/
+.sprite-plain {clip:rect(816px, 16px, 832px, 0); top: -816px;} /*34*/
+.sprite-word {clip:rect(864px, 16px, 880px, 0); top: -864px;} /*36*/
+.sprite-preview {clip:rect(912px, 16px, 928px, 0); top: -912px;} /*38*/
+.sprite-xformat {clip:rect(936px, 16px, 952px, 0); top: -936px;} /*39*/
+.sprite-all {clip:rect(960px, 16px, 976px, 0); top: -960px;} /*40*/
+.sprite-blocks {clip:rect(1008px, 16px, 1024px, 0); top: -1008px;} /*42*/
+.sprite-source {clip:rect(1056px, 16px, 1072px, 0); top: -1056px;} /*44*/
+.sprite-symbols {clip:rect(1080px, 16px, 1096px, 0); top: -1080px;} /*45*/
+.sprite-spell {clip:rect(1104px, 16px, 1120px, 0); top: -1104px;} /*46*/
+.sprite-table {clip:rect(1128px, 16px, 1144px, 0); top: -1128px;} /*47*/
+.sprite-redo {clip:rect(1176px, 16px, 1192px, 0); top: -1176px;} /*49*/
+.sprite-undo {clip:rect(1224px, 16px, 1240px, 0); top: -1224px;} /*51*/
+.sprite-embed {clip:rect(1272px, 16px, 1288px, 0); top: -1272px;} /*53*/
+.sprite-color {clip:rect(1296px, 16px, 1312px, 0); top: -1296px;} /*54*/
+.sprite-bgcolor {clip:rect(1320px, 16px, 1336px, 0); top: -1320px;} /*55*/
+.sprite-textjust {clip:rect(1344px, 16px, 1360px, 0); top: -1344px;} /*56*/
+.sprite-textcenter {clip:rect(1368px, 16px, 1384px, 0); top: -1368px;} /*57*/
+.sprite-textleft {clip:rect(1392px, 16px, 1408px, 0); top: -1392px;} /*58*/
+.sprite-textright {clip:rect(1416px, 16px, 1432px, 0); top: -1416px;} /*59*/
