@@ -140,23 +140,58 @@ If you have used a word processing tool (e.g. Microsoft Word, Google Docs, or Ap
 
 ### Inserting Images
 
-_Documentation to come._
+When you click the Insert Image button the dialog shown in Figure 3 is opened. This dialog allows you to choose the image you want to insert, and to define the parameters for the image.
 
-When you click the Insert Image button the dialog shown in Figure 8 is opened. This dialog allows you to choose the image you want to insert, and to define the parameters for the image.
+![Figure 3.](img/content_figure_3.png)
 
-The “Image Location” box allows you to specify which image you want to insert. If you have previously uploaded an image using the Media Uploads tool, select the “Uploaded Images” option. Then you can navigate to your image in the listing on the right.
-If you are using an image from the Web, select the “URL” option and type the full address to the image you want to use.
-The “Image Attributes” box allows you to specify optional parameters for your image. Once you have selected your image and assigned any optional parameters, click the “OK” button to insert your image into the text window.
+_Figure 3_
+
+Inserting images directly in content is helpful if you want to be able to wrap your images around your text or to more closely direct the placement of your images in content.
+
+The **URL** box allows you to specify which image you want to insert. If you are using an image from the Web, type the full address to the image you want to use in the URL field. If you have previously uploaded an image using the Media Uploads tool, select the **Browse Server** option. Then you can navigate to your image in the window that pops up, shown in Figure 4.
+
+![Figure 4.](img/content_figure_4.png)
+
+_Figure 4_
+
+On the left hand side of the **Browse Images** window are your upload groups. You may have one or more of these groups. Choose the group in which you uploaded your image, and the right hand frame will refresh with thumbnails of the images within that group. You may select the image to insert by choosing one of the links below that image. The **Full** link will insert the image at full-size&mdash;the size you uploaded the image orginally. The **Small** link will insert a 100x100 pixel thumbnail and **Smaller** will insert the image as a 50x50 pixel thumbnail. These thumbnails are automatically created by Vitasite when you upload your image.
+
+The additional image options in the image dialog are outlined below:
+
+* **Alternative Text** - Text inserted as an attribute of an image that tells website views and search engines the nature or contents of an image. This attribute is recommended for all images.
+* **Width & Height** - These fields will automatically be populated based upon your image's actual demensions. You may want to use this information to verify that your image will fit in your content. It's not recommended to chnage these values.
+* **Border** - Allows you to define a border around your image, or to remove the border by using 0 in the field. This setting may override any site styles for your image.
+* **HSpace** - Adds horizontal (margin) spacing to your image. This setting will affect both the left and right margins equally.
+* **VSpace** - Adds vertical (margin) spacing to your image. This setting will affect both the top and bottom margins equally.
+* **Alignment** - Allows the user to define how the image aligns on the page. "&lt;not set&gt;" will allow the image to remain on it's own line without text wrapping around the image. "left" allows the image to align to the left of the page, with the text wrapping on the right. "right" does the reverse, aligning the image to the right side of the page, and text wrapping on the left.
+
+There are additonal options within the **Link** tab and **Advanced** tabs which are not covered in this guide.
+
+Once you have selected your image and assigned any optional parameters, click the “OK” button to insert your image into the text window.
 
 ### Creating Links
 
+When you click the Insert Hyperlink button the dialog shown in Figure 5 is opened. This dialog allows you to choose the hyperlink you want to insert, and to define any optional parameters. You may link text by highlighting it first, and then selecting the hyperlink button. You may also link images in the same manner.
+
+![Figure 5.](img/content_figure_5.png)
+
+_Figure 5_
+
+#### Linking to an external resource
+
+If you are linking to an external resource, type your address in the the “URL” field. The link field should automatically strip and adjust your protocol (e.g. `http://` or `https://`) however, you may need to adjust the "Protocol" drop-down to match your intendend destination.  Once you click the “OK” button your link will be inserted into the text.
+
+#### Linking to page
+
+If you are linking to a page from your VitaSite, choose the "Browse Server" option. Then you will be able to navigate to the page you want using the window on the right. Then you can navigate to your link in the window that pops up, shown in Figure 6.
+
+![Figure 6.](img/content_figure_6.png)
+
+_Figure 6_
+
+## Content Groups
+
 _Documentation to come._
-
-When you click the Insert Hyperlink button the dialog shown in Figure 9 is opened. This dialog allows you to choose the hyperlink you want to insert, and to define any optional parameters.
-
-If you are linking to a page from your VitaSite, choose the “Link” option. Then you will be able to navigate to the page you want using the window on the right.
-
-If you are linking to an external resource, choose the “URL” option and type in the fill address. Once you click the “OK” button your link will be inserted into the text.
 
 ## Content Filters
 
