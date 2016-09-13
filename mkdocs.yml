@@ -2,7 +2,9 @@ site_name: Vitasite Documentation
 pages:
 - 'Get Started': index.md
 - Pages: content/pages.md
-- Content: content/content.md   
+- Content: content/content.md
+- Media: content/media.md
+- "Photo Features": content/photo-features.md
 theme: readthedocs
 markdown_extensions:
     - admonition

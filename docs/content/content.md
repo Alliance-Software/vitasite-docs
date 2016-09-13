@@ -14,7 +14,7 @@ The bottom part of the screen lists your existing content items in alphabetical 
 
 You can also view a subset of the content items by selecting a group name from the “Display content items from group” menu, and clicking “Submit.” This will show only those content items that are part of that content group. You may also search for a specific content item by using the "Search by name" field and searching on the name of the content item the admin provided.
 
-You can _create additional content groups_, or edit existing groups, by selecting the “Edit content groups” link near “Display content items from group” menu. Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
+You can _create additional content groups_, or edit existing groups, by selecting the “Edit content groups” link near “Display content items from group” menu. Learn more about [Content Groups](#content-groups).
 
 ## Creating Content Items
 
@@ -30,21 +30,21 @@ Define the Properties for the Content Item. In this step, you will assign descri
 
 **Live** – This check box determines whether this content item can be seen by your site visitors. If the content item is not live (the box is not checked), then visitors to your site will not see this item. Once you make the content item live (by checking the box and saving your changes), VitaSite will make it available for your web site visitors to see. This functionality allows you to work with an item in the administrative tools until you get it finished, without making it available on the site until it is ready.
 
-**Private** – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
+[**Private**](../index.md#private) – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
 
-If you are creating a regular content item, you can proceed to Step 2. The following options only apply to content filters.
+_If you are creating a regular content item, you can proceed to [Step 2](#step-two). The following options only apply to content used in a [content filter](#content-filter)._
 
-**Author** – This is an optional field used to identify the author of the content item. If the item is used in a content filter, the information in this field is shown to users as part of the content summary. Otherwise, site users do not see this field.
+**Author** – This is an optional field used to identify the author of the content item. If the item is used in a [content filter](#content-filter), the information in this field is shown to users as part of the content summary. Otherwise, site users do not see this field.
 
-**Image Upload** - This is an optional field used to identify a thumbnail image for this content item when it is used in a content filter. The content filter settings further describe how the image is used.
+**Image Upload** - This is an optional field used to identify a thumbnail image for this content item when it is used in a [content filter](#content-filter). The content filter settings further describe how the image is used.
 
-Publish Date – This is an optional field used to determine when a content item should appear in a content filter. It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
+**Publish Date** – This is an optional field used to determine when a content item should appear in a [content filter](#content-filter). It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
 
-Expire Date – This is an optional field used to determine when a content item should disappear in a content filter. It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
+**Expire Date** – This is an optional field used to determine when a content item should disappear in a [content filter](#content-filter). It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
 
-Summary – This is an optional field used to provide a short summary of the content item. It is only used when an item is part of a content filter, and the content filter has been set to show summaries.
+**Summary** – This is an optional field used to provide a short summary of the content item. It is only used when an item is part of a [content filter](#content-filter), and the content filter has been set to show summaries.
 
-Once you have completed these fields, you will generally proceed to the editor in [Step Two](#step-two).
+Once you have completed these fields, you will generally proceed to the editor in [Step 2](#step-two).
 
 ### Step Two
 
@@ -191,7 +191,23 @@ _Figure 6_
 
 ## Content Groups
 
-_Documentation to come._
+![Figure 7.](img/content_figure_7.png)
+
+_Figure 7_
+
+As [with all groups](../index.md#groups), **Content Groups**, showin in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
+
+![Figure 8.](img/content_figure_8.png)
+
+_Figure 8_
+
+The options within a Group set up are outlined below:
+
+* [**Private**](../index.md#private) – This check box is only available in a multiple sites installation of VitaSite. When this checkbox is selected, this group is marked as private and will not be visable to other sites within the same installation.
+* **Name** - The name given to the specific Content Group.
+* **Send** - Used in combination with the following "Email" field, enables email notifications when items within a group are added or updated.
+* **Email** - The email address or addresses notified when items are added or updated within this content group. Email addresses are a list sperated by either a comma (",") or semicolon (";").
+* **Default Content Tags** - The **Tags** applied to each content item by default. _Note_ default content tags are only added when new content items are created, and are not retroactively applied or removed from content items.
 
 ## Content Filters
 

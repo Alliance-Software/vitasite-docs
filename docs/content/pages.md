@@ -97,13 +97,7 @@ Inserting items of other types works in the same way. You narrow your selection 
 
 ### Filters
 
-In step two of the page insertion wizard, you are given the option of choosing a one or more filters. Filters are unique, in that they are not a separate type of item that can be edited using one of the VitaSite tools. Rather, filters are a powerful way of manipulating items with a tool, so that a page is updated automatically every time a new item is created with that tool.
-
-When you add a filter to a page, you specify the group(s) to insert, but not specific items. Instead, you define the number of  items that will display in the filter from that group, and the filter always displays the latest content items from that group, up to the number you defined. Also, the content filter does not show the full item. Rather, it displays the name of that item as a hyperlink. When a user clicks on the hyperlink, they are show the full item. Filters have different options depending on what tool they filter, such as options to Show/Hide dates, summary information, pagination, etc. Additional information specifically pertaining to filters are included within each tool's section of this manual.
-
-Filters can also be used to share items across multiple sites with **Tags**, if applicable. Tags are a method to filter specific items out of a group, only displaying the ones that relate to the topics you would like to filter. You would choose to filter groups from multiple sites and instead of showing all the items, the tags would only show those within those groups that contain the tag(s) chosen.
-
-The following steps show how to insert a **Content Filter** on a page:
+In step two of the page insertion wizard, you are given the option of choosing a one or more filters. You may want to [learn about the general concepts of filters](../index.md#filters), before adding your first filter. The following steps show how to insert a [**Content Filter**](content.md#content-filter) on a page:
 
 From the edit window for a page, click on an **Add Item** button to launch the page insertion wizard. This will open a new browser window, with the first set of options.
 

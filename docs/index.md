@@ -24,7 +24,7 @@ VitaSite also maintains navigational aids, such as the breadcrumbs trail feature
 
 ## Central data storage
 
-VitaSite uses a high performance SQL database (it’s not necessary to know what a SQL database is). This database keeps all your content in one place, and accesses it as visitors request information from your site. If your VitaSite CMS installation is hosted on Alliance Software’s servers, then we backup your content every two hours. If you host site on your organization’s servers, then your IT department's site administrators controll the backup schedule.
+VitaSite uses a high performance SQL database (it’s not necessary to know what a SQL database is). This database keeps all your content in one place, and accesses it as visitors request information from your site. If your VitaSite CMS installation is hosted on Alliance Software’s servers, then we backup your content every two hours. If you host site on your organization’s servers, then your IT department's site administrators control the backup schedule.
 
 VitaSite does not store anything on your local hard drive unless you explicitly choose to put it there. So again, you don’t have to worry about keeping track of the content you create. VitaSite takes care of that task, too.
 
@@ -63,6 +63,33 @@ Then you would log in to your administrative tools by going to: `http://www.mysi
 
 For access to the main site, use `www` for the site's 'shortname.'
 
+## Common Concepts in VitaSite
+
+There are several concepts in which you might want to familiarize your self with as you learn to use the VitaSite content management system. These concepts are described below. However, don't worry, we'll link back to this page whenever there is a core concept you might need to know.
+
+### Groups
+
+**Groups** are a way to organize your content. You can think about groups as you would a file folder on either your desktop or in your physical desk. For instance in [Media Uploads](content/media.md) you may choose to organize your files into groups such as "Images", "PDFs", "Headshots" or any number of groups. 
+
+!!!note 
+    Most tools only allow for a single group to be applied to items within that tool.
+
+Groups can also used in connection with [Filters](#filters). Following our example above, if a admin would like to create a list of PDFs that users could access, a Filter could be used to display uploaded files from the "PDFs" group on a page on your site. More information can be found in the [Filters section](#filters) and within the specific filter documentation on each tool that support filters throughout this guide.
+
+### Filters
+
+**Filters** are unique, in that they are not a separate type of item that can be edited using one of the VitaSite tools. Rather, filters are a powerful way of manipulating items with a tool, so that a page is updated automatically every time a new item is created with that tool.
+
+When you add a filter to a page, you specify the group(s) to insert, but not specific items. Instead, you define the number of  items that will display in the filter from that group, and the filter always displays the latest content items from that group, up to the number you defined. Also, the content filter does not show the full item. Rather, it displays the name of that item as a hyperlink. When a user clicks on the hyperlink, they are show the full item. Filters have different options depending on what tool they filter, such as options to Show/Hide dates, summary information, pagination, etc. Additional information specifically pertaining to filters are included within each tool's section of this manual.
+
+Filters can also be used to share items across multiple sites with **Tags**, if applicable. Tags are a method to filter specific items out of a group, only displaying the ones that relate to the topics you would like to filter. You would choose to filter groups from multiple sites and instead of showing all the items, the tags would only show those within those groups that contain the tag(s) chosen.
+
+### Private
+
+**Private** is a designation that applies only on multi-site installations, where an admin of Site A can access items from Site B, and so on. Private locks this item so it cannot be accessed outside this site. For instance, user permissions can be set up to allow an admin of a parent site access to site content from a child site and vice versa. Contact your site support team for more information on setting up user permissions to allow cross-site item access.
+
+In the instance of [filters](#filters), private can prevent another site from pulling in items from your site. This could be useful if, say, you want a calendar event only to show on your site and not on another site's event filter, which incorporates your event groups.
+
 ## About This Users Guide
 
-We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: [Pages](content/pages.md), [Content Items](content/content.md), and [Media Items](content/media.md).
+We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: [Pages](content/pages.md), [Content Items](content/content.md), and [Media Uploads](content/media.md).
