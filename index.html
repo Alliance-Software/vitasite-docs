@@ -86,6 +86,8 @@
                 
                     <li><a class="toctree-l4" href="#accessing-the-administrative-tools">Accessing the Administrative Tools</a></li>
                 
+                    <li><a class="toctree-l4" href="#common-concepts-in-vitasite">Common Concepts in VitaSite</a></li>
+                
                     <li><a class="toctree-l4" href="#about-this-users-guide">About This Users Guide</a></li>
                 
             
@@ -104,6 +106,20 @@
             <li>
     <li class="toctree-l1 ">
         <a class="" href="content/content/">Content</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="content/media/">Media</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="content/photo-features/">Photo Features</a>
         
     </li>
 <li>
@@ -158,7 +174,7 @@
 <p>VitaSite automatically updates your site navigational options as you add and change content. If you add a page to a particular section, VitaSite updates the navigation on all the related pages so that visitors to your site can find the new page.</p>
 <p>VitaSite also maintains navigational aids, such as the breadcrumbs trail feature, to help your site visitors understand where they are in your site structure. This makes it easy for them to find their way back to a particular page, or to understand the structure of your site content.</p>
 <h2 id="central-data-storage">Central data storage</h2>
-<p>VitaSite uses a high performance SQL database (it’s not necessary to know what a SQL database is). This database keeps all your content in one place, and accesses it as visitors request information from your site. If your VitaSite CMS installation is hosted on Alliance Software’s servers, then we backup your content every two hours. If you host site on your organization’s servers, then your IT department's site administrators controll the backup schedule.</p>
+<p>VitaSite uses a high performance SQL database (it’s not necessary to know what a SQL database is). This database keeps all your content in one place, and accesses it as visitors request information from your site. If your VitaSite CMS installation is hosted on Alliance Software’s servers, then we backup your content every two hours. If you host site on your organization’s servers, then your IT department's site administrators control the backup schedule.</p>
 <p>VitaSite does not store anything on your local hard drive unless you explicitly choose to put it there. So again, you don’t have to worry about keeping track of the content you create. VitaSite takes care of that task, too.</p>
 <p>We designed VitaSite to allow you to focus your energy on communicating your message, without worrying about all the other details that normally go into creating a website.</p>
 <h2 id="so-why-do-i-need-this-users-guide">“So, Why Do I Need this User’s Guide?”</h2>
@@ -186,8 +202,24 @@
 <p>Logging in to your VitaSite mulit-site installation takes and extra step. First, a 'shortname' is given to each sub-site underneath the main or home site. As an example, if your site 'stortname' was the word 'site' then your URL would be: <code>http://www.mysite.com/site</code></p>
 <p>Then you would log in to your administrative tools by going to: <code>http://www.mysite.com/site/admin</code></p>
 <p>For access to the main site, use <code>www</code> for the site's 'shortname.'</p>
+<h2 id="common-concepts-in-vitasite">Common Concepts in VitaSite</h2>
+<p>There are several concepts in which you might want to familiarize your self with as you learn to use the VitaSite content management system. These concepts are described below. However, don't worry, we'll link back to this page whenever there is a core concept you might need to know.</p>
+<h3 id="groups">Groups</h3>
+<p><strong>Groups</strong> are a way to organize your content. You can think about groups as you would a file folder on either your desktop or in your physical desk. For instance in <a href="content/media/">Media Uploads</a> you may choose to organize your files into groups such as "Images", "PDFs", "Headshots" or any number of groups. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Most tools only allow for a single group to be applied to items within that tool.</p>
+</div>
+<p>Groups can also used in connection with <a href="#filters">Filters</a>. Following our example above, if a admin would like to create a list of PDFs that users could access, a Filter could be used to display uploaded files from the "PDFs" group on a page on your site. More information can be found in the <a href="#filters">Filters section</a> and within the specific filter documentation on each tool that support filters throughout this guide.</p>
+<h3 id="filters">Filters</h3>
+<p><strong>Filters</strong> are unique, in that they are not a separate type of item that can be edited using one of the VitaSite tools. Rather, filters are a powerful way of manipulating items with a tool, so that a page is updated automatically every time a new item is created with that tool.</p>
+<p>When you add a filter to a page, you specify the group(s) to insert, but not specific items. Instead, you define the number of  items that will display in the filter from that group, and the filter always displays the latest content items from that group, up to the number you defined. Also, the content filter does not show the full item. Rather, it displays the name of that item as a hyperlink. When a user clicks on the hyperlink, they are show the full item. Filters have different options depending on what tool they filter, such as options to Show/Hide dates, summary information, pagination, etc. Additional information specifically pertaining to filters are included within each tool's section of this manual.</p>
+<p>Filters can also be used to share items across multiple sites with <strong>Tags</strong>, if applicable. Tags are a method to filter specific items out of a group, only displaying the ones that relate to the topics you would like to filter. You would choose to filter groups from multiple sites and instead of showing all the items, the tags would only show those within those groups that contain the tag(s) chosen.</p>
+<h3 id="private">Private</h3>
+<p><strong>Private</strong> is a designation that applies only on multi-site installations, where an admin of Site A can access items from Site B, and so on. Private locks this item so it cannot be accessed outside this site. For instance, user permissions can be set up to allow an admin of a parent site access to site content from a child site and vice versa. Contact your site support team for more information on setting up user permissions to allow cross-site item access.</p>
+<p>In the instance of <a href="#filters">filters</a>, private can prevent another site from pulling in items from your site. This could be useful if, say, you want a calendar event only to show on your site and not on another site's event filter, which incorporates your event groups.</p>
 <h2 id="about-this-users-guide">About This Users Guide</h2>
-<p>We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: <a href="content/pages/">Pages</a>, <a href="content/content/">Content Items</a>, and <a href="content/media.md">Media Items</a>.</p>
+<p>We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: <a href="content/pages/">Pages</a>, <a href="content/content/">Content Items</a>, and <a href="content/media/">Media Uploads</a>.</p>
               
             </div>
           </div>
@@ -237,5 +269,5 @@
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-03-21 22:57:40.401319
+Build Date UTC : 2016-09-14 14:18:57.194036
 -->

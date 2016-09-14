@@ -92,10 +92,26 @@
                 
                     <li><a class="toctree-l4" href="#using-the-wysiwyg-editor">Using the WYSIWYG Editor</a></li>
                 
+                    <li><a class="toctree-l4" href="#content-groups">Content Groups</a></li>
+                
                     <li><a class="toctree-l4" href="#content-filters">Content Filters</a></li>
                 
             
             </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../media/">Media</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../photo-features/">Photo Features</a>
         
     </li>
 <li>
@@ -144,7 +160,7 @@
 <p>A representation of the main Content Editor screen is shown in Figure 1. On this screen you can see all the content items in your site. The top of the page contains a link allowing you to create new content items.</p>
 <p>The bottom part of the screen lists your existing content items in alphabetical order. You can change the sort order by clicking on one of the other column header links. Next to each item is a check box that allows you to perform certain actions on one or more content items. The actions that can be taken are shown in the “Action” menu at the start of the content item listing.</p>
 <p>You can also view a subset of the content items by selecting a group name from the “Display content items from group” menu, and clicking “Submit.” This will show only those content items that are part of that content group. You may also search for a specific content item by using the "Search by name" field and searching on the name of the content item the admin provided.</p>
-<p>You can <em>create additional content groups</em>, or edit existing groups, by selecting the “Edit content groups” link near “Display content items from group” menu. Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.</p>
+<p>You can <em>create additional content groups</em>, or edit existing groups, by selecting the “Edit content groups” link near “Display content items from group” menu. Learn more about <a href="#content-groups">Content Groups</a>.</p>
 <h2 id="creating-content-items">Creating Content Items</h2>
 <p>To create a new content item, click the “New Content Item” link at the top of the main Content Editor page. This will open a new wizard, and display the fields for the process of creating a content item.</p>
 <h3 id="step-one">Step One</h3>
@@ -152,14 +168,14 @@
 <p><strong>Select a Group</strong> – This menu is used to assign this content item to a content group. It is a required field.</p>
 <p><strong>Name</strong> – This is the descriptive name used to identify the content item. When the content item is used as part of a content filter, this field is used as the headline for this content item. Otherwise, site visitors will not see this name.</p>
 <p><strong>Live</strong> – This check box determines whether this content item can be seen by your site visitors. If the content item is not live (the box is not checked), then visitors to your site will not see this item. Once you make the content item live (by checking the box and saving your changes), VitaSite will make it available for your web site visitors to see. This functionality allows you to work with an item in the administrative tools until you get it finished, without making it available on the site until it is ready.</p>
-<p><strong>Private</strong> – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.</p>
-<p>If you are creating a regular content item, you can proceed to Step 2. The following options only apply to content filters.</p>
-<p><strong>Author</strong> – This is an optional field used to identify the author of the content item. If the item is used in a content filter, the information in this field is shown to users as part of the content summary. Otherwise, site users do not see this field.</p>
-<p><strong>Image Upload</strong> - This is an optional field used to identify a thumbnail image for this content item when it is used in a content filter. The content filter settings further describe how the image is used.</p>
-<p>Publish Date – This is an optional field used to determine when a content item should appear in a content filter. It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.</p>
-<p>Expire Date – This is an optional field used to determine when a content item should disappear in a content filter. It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.</p>
-<p>Summary – This is an optional field used to provide a short summary of the content item. It is only used when an item is part of a content filter, and the content filter has been set to show summaries.</p>
-<p>Once you have completed these fields, you will generally proceed to the editor in <a href="#step-two">Step Two</a>.</p>
+<p><a href="../..#private"><strong>Private</strong></a> – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.</p>
+<p><em>If you are creating a regular content item, you can proceed to <a href="#step-two">Step 2</a>. The following options only apply to content used in a <a href="#content-filter">content filter</a>.</em></p>
+<p><strong>Author</strong> – This is an optional field used to identify the author of the content item. If the item is used in a <a href="#content-filter">content filter</a>, the information in this field is shown to users as part of the content summary. Otherwise, site users do not see this field.</p>
+<p><strong>Image Upload</strong> - This is an optional field used to identify a thumbnail image for this content item when it is used in a <a href="#content-filter">content filter</a>. The content filter settings further describe how the image is used.</p>
+<p><strong>Publish Date</strong> – This is an optional field used to determine when a content item should appear in a <a href="#content-filter">content filter</a>. It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.</p>
+<p><strong>Expire Date</strong> – This is an optional field used to determine when a content item should disappear in a <a href="#content-filter">content filter</a>. It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.</p>
+<p><strong>Summary</strong> – This is an optional field used to provide a short summary of the content item. It is only used when an item is part of a <a href="#content-filter">content filter</a>, and the content filter has been set to show summaries.</p>
+<p>Once you have completed these fields, you will generally proceed to the editor in <a href="#step-two">Step 2</a>.</p>
 <h3 id="step-two">Step Two</h3>
 <p>Edit the content of the item. In this section you will work with the text and images that make up this item. </p>
 <p><img alt="Figure 2." src="../img/content_figure_2.png" /></p>
@@ -244,16 +260,49 @@
 <li><span class="sprite-wrap"><img src="../img/content_icons.png" alt="embed" class="sprite sprite-embed" /></span><strong>Embed Media from External Sites</strong> - This Plugin allows you to insert embedded content (such as photos, videos, audio, and other rich media) via the OEmbed API. You only have to provide the URL to the site (It works also when the URL is shortened) you want to embed and the plugin does the rest. Examples of currently supported sites include: YouTube, Vimeo, Flickr, Instagram, SoundCloud, among several others.</li>
 </ul>
 <h3 id="inserting-images">Inserting Images</h3>
-<p><em>Documentation to come.</em></p>
-<p>When you click the Insert Image button the dialog shown in Figure 8 is opened. This dialog allows you to choose the image you want to insert, and to define the parameters for the image.</p>
-<p>The “Image Location” box allows you to specify which image you want to insert. If you have previously uploaded an image using the Media Uploads tool, select the “Uploaded Images” option. Then you can navigate to your image in the listing on the right.
-If you are using an image from the Web, select the “URL” option and type the full address to the image you want to use.
-The “Image Attributes” box allows you to specify optional parameters for your image. Once you have selected your image and assigned any optional parameters, click the “OK” button to insert your image into the text window.</p>
+<p>When you click the Insert Image button the dialog shown in Figure 3 is opened. This dialog allows you to choose the image you want to insert, and to define the parameters for the image.</p>
+<p><img alt="Figure 3." src="../img/content_figure_3.png" /></p>
+<p><em>Figure 3</em></p>
+<p>Inserting images directly in content is helpful if you want to be able to wrap your images around your text or to more closely direct the placement of your images in content.</p>
+<p>The <strong>URL</strong> box allows you to specify which image you want to insert. If you are using an image from the Web, type the full address to the image you want to use in the URL field. If you have previously uploaded an image using the Media Uploads tool, select the <strong>Browse Server</strong> option. Then you can navigate to your image in the window that pops up, shown in Figure 4.</p>
+<p><img alt="Figure 4." src="../img/content_figure_4.png" /></p>
+<p><em>Figure 4</em></p>
+<p>On the left hand side of the <strong>Browse Images</strong> window are your upload groups. You may have one or more of these groups. Choose the group in which you uploaded your image, and the right hand frame will refresh with thumbnails of the images within that group. You may select the image to insert by choosing one of the links below that image. The <strong>Full</strong> link will insert the image at full-size&mdash;the size you uploaded the image orginally. The <strong>Small</strong> link will insert a 100x100 pixel thumbnail and <strong>Smaller</strong> will insert the image as a 50x50 pixel thumbnail. These thumbnails are automatically created by Vitasite when you upload your image.</p>
+<p>The additional image options in the image dialog are outlined below:</p>
+<ul>
+<li><strong>Alternative Text</strong> - Text inserted as an attribute of an image that tells website views and search engines the nature or contents of an image. This attribute is recommended for all images.</li>
+<li><strong>Width &amp; Height</strong> - These fields will automatically be populated based upon your image's actual demensions. You may want to use this information to verify that your image will fit in your content. It's not recommended to chnage these values.</li>
+<li><strong>Border</strong> - Allows you to define a border around your image, or to remove the border by using 0 in the field. This setting may override any site styles for your image.</li>
+<li><strong>HSpace</strong> - Adds horizontal (margin) spacing to your image. This setting will affect both the left and right margins equally.</li>
+<li><strong>VSpace</strong> - Adds vertical (margin) spacing to your image. This setting will affect both the top and bottom margins equally.</li>
+<li><strong>Alignment</strong> - Allows the user to define how the image aligns on the page. "&lt;not set&gt;" will allow the image to remain on it's own line without text wrapping around the image. "left" allows the image to align to the left of the page, with the text wrapping on the right. "right" does the reverse, aligning the image to the right side of the page, and text wrapping on the left.</li>
+</ul>
+<p>There are additonal options within the <strong>Link</strong> tab and <strong>Advanced</strong> tabs which are not covered in this guide.</p>
+<p>Once you have selected your image and assigned any optional parameters, click the “OK” button to insert your image into the text window.</p>
 <h3 id="creating-links">Creating Links</h3>
-<p><em>Documentation to come.</em></p>
-<p>When you click the Insert Hyperlink button the dialog shown in Figure 9 is opened. This dialog allows you to choose the hyperlink you want to insert, and to define any optional parameters.</p>
-<p>If you are linking to a page from your VitaSite, choose the “Link” option. Then you will be able to navigate to the page you want using the window on the right.</p>
-<p>If you are linking to an external resource, choose the “URL” option and type in the fill address. Once you click the “OK” button your link will be inserted into the text.</p>
+<p>When you click the Insert Hyperlink button the dialog shown in Figure 5 is opened. This dialog allows you to choose the hyperlink you want to insert, and to define any optional parameters. You may link text by highlighting it first, and then selecting the hyperlink button. You may also link images in the same manner.</p>
+<p><img alt="Figure 5." src="../img/content_figure_5.png" /></p>
+<p><em>Figure 5</em></p>
+<h4 id="linking-to-an-external-resource">Linking to an external resource</h4>
+<p>If you are linking to an external resource, type your address in the the “URL” field. The link field should automatically strip and adjust your protocol (e.g. <code>http://</code> or <code>https://</code>) however, you may need to adjust the "Protocol" drop-down to match your intendend destination.  Once you click the “OK” button your link will be inserted into the text.</p>
+<h4 id="linking-to-page">Linking to page</h4>
+<p>If you are linking to a page from your VitaSite, choose the "Browse Server" option. Then you will be able to navigate to the page you want using the window on the right. Then you can navigate to your link in the window that pops up, shown in Figure 6.</p>
+<p><img alt="Figure 6." src="../img/content_figure_6.png" /></p>
+<p><em>Figure 6</em></p>
+<h2 id="content-groups">Content Groups</h2>
+<p><img alt="Figure 7." src="../img/content_figure_7.png" /></p>
+<p><em>Figure 7</em></p>
+<p>As <a href="../..#groups">with all groups</a>, <strong>Content Groups</strong>, showin in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in <a href="#content-filters">Content Filters</a>. Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.</p>
+<p><img alt="Figure 8." src="../img/content_figure_8.png" /></p>
+<p><em>Figure 8</em></p>
+<p>The options within a Group set up are outlined below:</p>
+<ul>
+<li><a href="../..#private"><strong>Private</strong></a> – This check box is only available in a multiple sites installation of VitaSite. When this checkbox is selected, this group is marked as private and will not be visable to other sites within the same installation.</li>
+<li><strong>Name</strong> - The name given to the specific Content Group.</li>
+<li><strong>Send</strong> - Used in combination with the following "Email" field, enables email notifications when items within a group are added or updated.</li>
+<li><strong>Email</strong> - The email address or addresses notified when items are added or updated within this content group. Email addresses are a list sperated by either a comma (",") or semicolon (";").</li>
+<li><strong>Default Content Tags</strong> - The <strong>Tags</strong> applied to each content item by default. <em>Note</em> default content tags are only added when new content items are created, and are not retroactively applied or removed from content items.</li>
+</ul>
 <h2 id="content-filters">Content Filters</h2>
 <p><em>Documentation to come.</em></p>
               
@@ -262,6 +311,8 @@ The “Image Attributes” box allows you to specify optional parameters for you
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../media/" class="btn btn-neutral float-right" title="Media">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../pages/" class="btn btn-neutral" title="Pages"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -296,6 +347,8 @@ The “Image Attributes” box allows you to specify optional parameters for you
       
         <span><a href="../pages/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../media/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

@@ -4,7 +4,7 @@
     
     <url>
      <loc>http://docs.vitasite.com/</loc>
-     <lastmod>2016-03-21</lastmod>
+     <lastmod>2016-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>http://docs.vitasite.com/content/pages/</loc>
-     <lastmod>2016-03-21</lastmod>
+     <lastmod>2016-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,23 @@
     
     <url>
      <loc>http://docs.vitasite.com/content/content/</loc>
-     <lastmod>2016-03-21</lastmod>
+     <lastmod>2016-09-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://docs.vitasite.com/content/media/</loc>
+     <lastmod>2016-09-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://docs.vitasite.com/content/photo-features/</loc>
+     <lastmod>2016-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
