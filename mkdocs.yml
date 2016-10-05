@@ -2,11 +2,12 @@ site_name: Vitasite Documentation
 pages:
 - 'Get Started': index.md
 - Pages: page.md
-- Content: content.md
-- Media: upload.md
+- 'Content Items': content.md
+- 'Media Uploads': upload.md
 - 'Photo Features': feature.md
 theme: readthedocs
 markdown_extensions:
+    - abbr
     - admonition
 site_url: http://docs.vitasite.com
 repo_url: https://github.com/Alliance-Software/vitasite-docs

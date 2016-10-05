@@ -10,7 +10,7 @@ VitaSite is also extremely robust and powerful. VitaSite technology is in use on
 
 ## Simple Tools You Can Use from Anywhere
 
-We built the VitaSite Content Management System (CMS) around simple, browser-based tools that you can use from any computer that has an Internet connection. In this way, you can update your website from your office, your kitchen table, or from a hotel room half way around the world. It requires no special desktop software. If you have Internet Explorer, Netscape Navigator, Apple Safari, or just about any other modern web browser, then you have all the software you need.
+We built the VitaSite Content Management System around simple, browser-based tools that you can use from any computer that has an Internet connection. In this way, you can update your website from your office, your kitchen table, or from a hotel room half way around the world. It requires no special desktop software. If you have Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, Apple Safari, or just about any other modern web browser, then you have all the software you need.
 
 ## Consistent Look & Feel
 
@@ -69,9 +69,9 @@ There are several concepts in which you might want to familiarize your self with
 
 ### Groups
 
-**Groups** are a way to organize your content. You can think about groups as you would a file folder on either your desktop or in your physical desk. For instance in [Media Uploads](media.md) you may choose to organize your files into groups such as "Images", "PDFs", "Headshots" or any number of groups. 
+**Groups** are a way to organize your content. You can think about groups as you would a file folder on either your desktop or in your physical desk. For instance in [Media Uploads](upload.md) you may choose to organize your files into groups such as "Images", "PDFs", "Headshots" or any number of groups.
 
-!!!note 
+!!!note
     Most tools only allow for a single group to be applied to items within that tool.
 
 Groups can also used in connection with [Filters](#filters). Following our example above, if a admin would like to create a list of PDFs that users could access, a Filter could be used to display uploaded files from the "PDFs" group on a page on your site. More information can be found in the [Filters section](#filters) and within the specific filter documentation on each tool that support filters throughout this guide.
@@ -92,4 +92,12 @@ In the instance of [filters](#filters), private can prevent another site from pu
 
 ## About This Users Guide
 
-We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: [Pages](pages.md), [Content Items](content.md), and [Media Uploads](media.md).
+We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: [Pages](page.md), [Content Items](content.md), and [Media Uploads](upload.md).
+
+*[HTML]: Hypertext Markup Language
+*[FTP]: File Transfer Protocol
+*[SQL]: Structured Query Language
+*[CMS]: Content Management System
+*[IT]: Information Technology
+*[URL]: Universal Resource Locator
+*[PDFs]: Portable Document Files

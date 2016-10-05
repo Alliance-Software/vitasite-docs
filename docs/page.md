@@ -7,13 +7,11 @@ Think of Pages as an outline of your site. The top-level is your home page. Unde
 For example, if we wanted to take this Users Guide and make it into a web site, then we might outline it into Pages and Sub-Pages as follows:
 
 1. Home Page
-    1. Introduction & Overview
-        1. Pages & Content
-        1. Page Editor
-        1. Content Items
-        1. Media Items
-            1. Etc.
-            1. Etc.
+    1. Pages
+    1. Content Items
+    1. Media Uploads
+        1. Etc.
+        1. Etc.
 
 You might notice that the outline looks a lot like a Table of Contents. That is the point. Organizing your site into Pages and Sub-pages provides an organizational structure that makes it easy for your site visitors to find what they’re looking for.
 
@@ -72,7 +70,7 @@ If there are existing items on a page, these areas are indicated by small number
 * **Info:** This button identifies the item by Group, Item Name, and Item Key. This information may be helpful to your site administrator in the case you get stuck.
 
 !!! note
-    The **Width** button allows you to add 'column' effects for your content. By default, all content items placed on a page will take up the 'full-width' of the content area. Your VitaSite installation may have one or more options under this menu. The CMS will automatically determine the width and number of items of each row, using the widths you assign to each item. For instance placing two content items with their width set to one-half (1/2) will result in a two-column effect. Any items that overflow the row will automatically drop under items in the current row. Be careful not to leave a row with an empty space or to make items too small where they might be usable to your users (e.g. Forms or Event Registrations).
+    The **Width** button allows you to add 'column' effects for your content. By default, all content items placed on a page will take up the 'full-width' of the content area. Your VitaSite installation may have one or more options under this menu. The CMS will automatically determine the width and number of items of each row, using the widths you assign to each item. For instance placing two content items with their width set to one-half (1/2) will result in a two-column effect. Any items that overflow the row will automatically drop under items in the current row. Be careful not to leave a row with an empty space or to make items too small where they might be usable to your users (e.g. Email Forms or Event Registrations).
 
 It is important to remember that changes you make using these buttons are not saved until you click **Save** or at the top of the window, with the exception of changes made with the **Edit Item** button. This allows you to experiment with various items, without committing to those experiments until you are satisfied with the appearance of the page.
 
@@ -156,3 +154,6 @@ If you do not define the properties of the new sub-page, it will be listed as �
 ## Delete
 
 Clicking the delete option displays a confirmation screen that asks if you want to delete or cancel. Choosing “delete” removes this page from the site permanently. However, any content contained on the page is not deleted, and can be used on other pages.
+
+*[CMS]: Content Management System
+*[PDF]: Portable Document File
