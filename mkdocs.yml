@@ -1,10 +1,10 @@
 site_name: Vitasite Documentation
 pages:
 - 'Get Started': index.md
-- Pages: content/pages.md
-- Content: content/content.md
-- Media: content/media.md
-- "Photo Features": content/photo-features.md
+- Pages: page.md
+- Content: content.md
+- Media: upload.md
+- 'Photo Features': feature.md
 theme: readthedocs
 markdown_extensions:
     - admonition
