@@ -97,7 +97,7 @@ Inserting items of other types works in the same way. You narrow your selection 
 
 ### Filters
 
-In step two of the page insertion wizard, you are given the option of choosing a one or more filters. You may want to [learn about the general concepts of filters](../index.md#filters), before adding your first filter. The following steps show how to insert a [**Content Filter**](content.md#content-filter) on a page:
+In step two of the page insertion wizard, you are given the option of choosing a one or more filters. You may want to [learn about the general concepts of filters](/#filters), before adding your first filter. The following steps show how to insert a [**Content Filter**](content.md#content-filter) on a page:
 
 From the edit window for a page, click on an **Add Item** button to launch the page insertion wizard. This will open a new browser window, with the first set of options.
 

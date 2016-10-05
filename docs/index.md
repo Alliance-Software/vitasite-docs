@@ -69,7 +69,7 @@ There are several concepts in which you might want to familiarize your self with
 
 ### Groups
 
-**Groups** are a way to organize your content. You can think about groups as you would a file folder on either your desktop or in your physical desk. For instance in [Media Uploads](content/media.md) you may choose to organize your files into groups such as "Images", "PDFs", "Headshots" or any number of groups. 
+**Groups** are a way to organize your content. You can think about groups as you would a file folder on either your desktop or in your physical desk. For instance in [Media Uploads](media.md) you may choose to organize your files into groups such as "Images", "PDFs", "Headshots" or any number of groups. 
 
 !!!note 
     Most tools only allow for a single group to be applied to items within that tool.
@@ -92,4 +92,4 @@ In the instance of [filters](#filters), private can prevent another site from pu
 
 ## About This Users Guide
 
-We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: [Pages](content/pages.md), [Content Items](content/content.md), and [Media Uploads](content/media.md).
+We organized this Users Guide in the same organizational structure as the VitaSite administrative tools. Each VitaSite tool has its own section, where we explain the use of that tool. We discuss the most often used tools first. Most readers of this Users Guide will learn the bulk of what they need in the sections discussing the first three tools: [Pages](pages.md), [Content Items](content.md), and [Media Uploads](media.md).

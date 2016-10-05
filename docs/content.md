@@ -30,7 +30,7 @@ Define the Properties for the Content Item. In this step, you will assign descri
 
 **Live** – This check box determines whether this content item can be seen by your site visitors. If the content item is not live (the box is not checked), then visitors to your site will not see this item. Once you make the content item live (by checking the box and saving your changes), VitaSite will make it available for your web site visitors to see. This functionality allows you to work with an item in the administrative tools until you get it finished, without making it available on the site until it is ready.
 
-[**Private**](../index.md#private) – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
+[**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
 
 _If you are creating a regular content item, you can proceed to [Step 2](#step-two). The following options only apply to content used in a [content filter](#content-filter)._
 
@@ -68,20 +68,20 @@ If you have used a word processing tool (e.g. Microsoft Word, Google Docs, or Ap
 
 ### Editing
 
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-cut" /></span>**Cut** - This button removes the selected text, and places it on the clipboard.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-copy" /></span>**Copy** - This button copies the selected text to the clipboard.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-paste" /></span>**Paste** - This button inserts the contents of the clipboard at the current text insertion point.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-plain" /></span>**Paste as Plain Text** - This button opens a dialog where text on the user's clipboard can be pasted. Any text, styles, etc. are stripped down to their basic formats before being inserted into the editor. This option is helpful if you want to start formatting from scratch or are pasting from a source that is known to cause issues with the CKEditor.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-word" /></span>**Paste from Word** - The CKEditor allows you to keep basic formatting when you past a text fragment from Microsoft Word. This option is recommended for any text pasted into the editor from Microsoft Word, due to its known formatting issues.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-undo" /></span>**Undo** - The Undo feature is a quick way to cancel the recently introduced change and restore the document to its previous state.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-redo" /></span>**Redo** - The Redo feature lets you revert the last undo operation. This means that the document returns to the state it was in before you performed the undo.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-cut" /></span>**Cut** - This button removes the selected text, and places it on the clipboard.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-copy" /></span>**Copy** - This button copies the selected text to the clipboard.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-paste" /></span>**Paste** - This button inserts the contents of the clipboard at the current text insertion point.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-plain" /></span>**Paste as Plain Text** - This button opens a dialog where text on the user's clipboard can be pasted. Any text, styles, etc. are stripped down to their basic formats before being inserted into the editor. This option is helpful if you want to start formatting from scratch or are pasting from a source that is known to cause issues with the CKEditor.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-word" /></span>**Paste from Word** - The CKEditor allows you to keep basic formatting when you past a text fragment from Microsoft Word. This option is recommended for any text pasted into the editor from Microsoft Word, due to its known formatting issues.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-undo" /></span>**Undo** - The Undo feature is a quick way to cancel the recently introduced change and restore the document to its previous state.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-redo" /></span>**Redo** - The Redo feature lets you revert the last undo operation. This means that the document returns to the state it was in before you performed the undo.
 
 ### View
 
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-find" /></span>**Find** - Allows the editor to find the specific text in the document.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-replace" /></span>**Replace** - Allows the editor to find and replace specific text in the document.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-all" /></span>**Select All** - This button selects everything in the editor document.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-spell" /></span>**Spell Check As You Type (SCAYT)** - SCAYT is a convenient option that lets you control the correctness of your document at the same time that you are writing it. SCAYT checks the text immediately after you write it and when it finds an error, it marks it with a red wavy line underneath the misspelled word. By default SCAYT is enabled. Any mistyped word may be corrected by right clicking (control+click on some Macs) and selecting the correct spelling from the suggested options within the menu. The toolbar menu has additional options not covered in this documentation.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-find" /></span>**Find** - Allows the editor to find the specific text in the document.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-replace" /></span>**Replace** - Allows the editor to find and replace specific text in the document.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-all" /></span>**Select All** - This button selects everything in the editor document.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-spell" /></span>**Spell Check As You Type (SCAYT)** - SCAYT is a convenient option that lets you control the correctness of your document at the same time that you are writing it. SCAYT checks the text immediately after you write it and when it finds an error, it marks it with a red wavy line underneath the misspelled word. By default SCAYT is enabled. Any mistyped word may be corrected by right clicking (control+click on some Macs) and selecting the correct spelling from the suggested options within the menu. The toolbar menu has additional options not covered in this documentation.
 
 ### Typeface Options
 
@@ -89,54 +89,54 @@ If you have used a word processing tool (e.g. Microsoft Word, Google Docs, or Ap
 * **Format Menu** - Described the paragraph format of the current line. By default the editor uses Paragraphs `<p>`. This menu allows you to change the current line to a Heading 1-6 (i.e. `<h1>`, `<h2>`, etc.) or a Division `<div>` element. There may be additional options depending on your installation.
 * **Font Menu** -  This menu allows you to select the typeface for you text. This option may be disabled if your site uses a cascading style sheet.
 * **Size Menu** -  This menu allows you to select the type size for you text. This option may be disabled if your site uses a cascading style sheet.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-color" /></span>**Font Color** - This button allows you to define the color of your text. This option may be disabled if your site uses a cascading style sheet.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-bgcolor" /></span>**Font Background Color** - This button allows you to define the background color, or highlight color, of your text. This option may be disabled if your site uses a cascading style sheet.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-color" /></span>**Font Color** - This button allows you to define the color of your text. This option may be disabled if your site uses a cascading style sheet.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-bgcolor" /></span>**Font Background Color** - This button allows you to define the background color, or highlight color, of your text. This option may be disabled if your site uses a cascading style sheet.
 
 ### Text Styling
 
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="bold" class="sprite sprite-bold" /></span>**Bold** - This button allows you to create bold text.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="italic" class="sprite sprite-italic" /></span>**Italic** - This button allows you to create italic text.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="underline" class="sprite sprite-underline" /></span>**Underline** - This button allows you to create underlined text.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="strike through" class="sprite sprite-strike" /></span>**Strike through** - This button allows you to create strike through text.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="subscript" class="sprite sprite-sub" /></span>**Subscript** - This button allows you to create subscript text.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="superscript" class="sprite sprite-super" /></span>**Superscript** - This button allows you to create superscript text.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-xformat" /></span>**Remove Formatting** - This button will remove all formatting from the currently selected text. It will, however, preserve any changes from the Format menu.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="bold" class="sprite sprite-bold" /></span>**Bold** - This button allows you to create bold text.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="italic" class="sprite sprite-italic" /></span>**Italic** - This button allows you to create italic text.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="underline" class="sprite sprite-underline" /></span>**Underline** - This button allows you to create underlined text.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="strike through" class="sprite sprite-strike" /></span>**Strike through** - This button allows you to create strike through text.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="subscript" class="sprite sprite-sub" /></span>**Subscript** - This button allows you to create subscript text.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="superscript" class="sprite sprite-super" /></span>**Superscript** - This button allows you to create superscript text.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="cut" class="sprite sprite-xformat" /></span>**Remove Formatting** - This button will remove all formatting from the currently selected text. It will, however, preserve any changes from the Format menu.
 
 ### Text Layout
 
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="ordered list" class="sprite sprite-ol" /></span>**Ordered List** - This button allows you to create an ordered list. Place the insertion point where you want the list to start, then click this button once for each list item you want to create. Once you have created the list items, you can type the text that should appear next to each.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="unordered list" class="sprite sprite-ul" /></span>**Unordered List** - This button allows you to create an ordered list. Place the insertion point where you want the list to start, then click this button once for each list item you want to create. Once you have created the list items, you can type the text that should appear next to each.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="indent left" class="sprite sprite-indentl" /></span>**Indent Left** - Indents the current text to the left. When used in combination with the Ordered/Unordered lists, creates nested lists by indenting the current line down one level. If the last level is reached, it removes the list option from the current selection.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="indent right" class="sprite sprite-indentr" /></span>**Indent Right** - Indents the current text to the right. When used in combination with the Ordered/Unordered lists, moves a list item up one level.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="block quote" class="sprite sprite-quote" /></span>**Block Quote** - Changes the currently selected text into a block quote.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="align left" class="sprite sprite-textleft" /></span>**Align Left** - This button aligns the current selection to the left. This option may be disabled if your site uses a cascading style sheet.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="align center" class="sprite sprite-textcenter" /></span>**Align Center** - This button aligns the current selection to the center point. This option may be disabled if your site uses a cascading style sheet.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="align right" class="sprite sprite-textright" /></span>**Align Right** - This button aligns the current selection to the right. This option may be disabled if your site uses a cascading style sheet.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="align justify" class="sprite sprite-textjust" /></span>**Align Justify** - This button aligns the current selection using full justification. This option may be disabled if your site uses a cascading style sheet.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="ordered list" class="sprite sprite-ol" /></span>**Ordered List** - This button allows you to create an ordered list. Place the insertion point where you want the list to start, then click this button once for each list item you want to create. Once you have created the list items, you can type the text that should appear next to each.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="unordered list" class="sprite sprite-ul" /></span>**Unordered List** - This button allows you to create an ordered list. Place the insertion point where you want the list to start, then click this button once for each list item you want to create. Once you have created the list items, you can type the text that should appear next to each.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="indent left" class="sprite sprite-indentl" /></span>**Indent Left** - Indents the current text to the left. When used in combination with the Ordered/Unordered lists, creates nested lists by indenting the current line down one level. If the last level is reached, it removes the list option from the current selection.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="indent right" class="sprite sprite-indentr" /></span>**Indent Right** - Indents the current text to the right. When used in combination with the Ordered/Unordered lists, moves a list item up one level.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="block quote" class="sprite sprite-quote" /></span>**Block Quote** - Changes the currently selected text into a block quote.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="align left" class="sprite sprite-textleft" /></span>**Align Left** - This button aligns the current selection to the left. This option may be disabled if your site uses a cascading style sheet.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="align center" class="sprite sprite-textcenter" /></span>**Align Center** - This button aligns the current selection to the center point. This option may be disabled if your site uses a cascading style sheet.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="align right" class="sprite sprite-textright" /></span>**Align Right** - This button aligns the current selection to the right. This option may be disabled if your site uses a cascading style sheet.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="align justify" class="sprite sprite-textjust" /></span>**Align Justify** - This button aligns the current selection using full justification. This option may be disabled if your site uses a cascading style sheet.
 
 ### Creating Rich Text
 
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="link/hyperlink" class="sprite sprite-link" /></span>**Insert Hyperlink** - This button opens the hyperlink dialog box, which allows you to create links. See [Creating Links](#creating-links) section below.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="remove link" class="sprite sprite-xlink" /></span>**Remove Hyperlink** - This button will remove a hyperlink from the currently selected text, if any.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="anchor" class="sprite sprite-anchor" /></span>**Insert Anchor** - Inserts an Anchor to a specific point in the text. Links can then direct a user to a that specific point either within the current document or from another one. It is best practice to write compound words with no spaces or replacing spaces with dashes (e.g. 'content,' 'contentitems' or 'content-items') and no capitals.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="image" class="sprite sprite-image" /></span>**Insert Image** - This button opens the image dialog box, which allows you to insert an image into your content item. See [Inserting Images](#inserting-images) section below.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="line" class="sprite sprite-hr" /></span>**Insert Line** - This button inserts a horizontal rule.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="link/hyperlink" class="sprite sprite-link" /></span>**Insert Hyperlink** - This button opens the hyperlink dialog box, which allows you to create links. See [Creating Links](#creating-links) section below.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="remove link" class="sprite sprite-xlink" /></span>**Remove Hyperlink** - This button will remove a hyperlink from the currently selected text, if any.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="anchor" class="sprite sprite-anchor" /></span>**Insert Anchor** - Inserts an Anchor to a specific point in the text. Links can then direct a user to a that specific point either within the current document or from another one. It is best practice to write compound words with no spaces or replacing spaces with dashes (e.g. 'content,' 'contentitems' or 'content-items') and no capitals.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="image" class="sprite sprite-image" /></span>**Insert Image** - This button opens the image dialog box, which allows you to insert an image into your content item. See [Inserting Images](#inserting-images) section below.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="line" class="sprite sprite-hr" /></span>**Insert Line** - This button inserts a horizontal rule.
 
 ### Additional Features
 
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="source" class="sprite sprite-source" /></span>**Source** - Allows the user to switch between the WYSIWYG view and the HTML code view.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="preview" class="sprite sprite-preview" /></span>**Preview** - Opens the editor into a new window, showing the current working state.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="maximize" class="sprite sprite-maximize" /></span>**Maximize** - Maximizes the editor to fit the entire screen.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="blocks" class="sprite sprite-blocks" /></span>**Show Blocks** - Outlines elements within the editor to show the structure of the document.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="symbols" class="sprite sprite-symbols" /></span>**Symbols** - When you are writing, it is often necessary to insert characters that are not a part of the standard keyboard. This is especially useful during the creation of documents in foreign languages that require various national letters. Another area where special characters are often needed is writing mathematical expressions.
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="iframe" class="sprite sprite-iframe" /></span>**iFrame** - CKEditor makes it possible to insert inline frames to a document. Inline frames, or `<iframe>` elements, allow you to insert a frame containing another document in the middle of your document.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="source" class="sprite sprite-source" /></span>**Source** - Allows the user to switch between the WYSIWYG view and the HTML code view.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="preview" class="sprite sprite-preview" /></span>**Preview** - Opens the editor into a new window, showing the current working state.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="maximize" class="sprite sprite-maximize" /></span>**Maximize** - Maximizes the editor to fit the entire screen.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="blocks" class="sprite sprite-blocks" /></span>**Show Blocks** - Outlines elements within the editor to show the structure of the document.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="symbols" class="sprite sprite-symbols" /></span>**Symbols** - When you are writing, it is often necessary to insert characters that are not a part of the standard keyboard. This is especially useful during the creation of documents in foreign languages that require various national letters. Another area where special characters are often needed is writing mathematical expressions.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="iframe" class="sprite sprite-iframe" /></span>**iFrame** - CKEditor makes it possible to insert inline frames to a document. Inline frames, or `<iframe>` elements, allow you to insert a frame containing another document in the middle of your document.
 
 ### Additional Plugins
 
 !!! note
     Not all plug-ins available are listed here. This section includes some commonly included plugins in Vitasite installations. Please contact your system administrator for more information and options for the CKEditor.
     
-* <span class="sprite-wrap"><img src="../img/content_icons.png" alt="embed" class="sprite sprite-embed" /></span>**Embed Media from External Sites** - This Plugin allows you to insert embedded content (such as photos, videos, audio, and other rich media) via the OEmbed API. You only have to provide the URL to the site (It works also when the URL is shortened) you want to embed and the plugin does the rest. Examples of currently supported sites include: YouTube, Vimeo, Flickr, Instagram, SoundCloud, among several others.
+* <span class="sprite-wrap"><img src="img/content_icons.png" alt="embed" class="sprite sprite-embed" /></span>**Embed Media from External Sites** - This Plugin allows you to insert embedded content (such as photos, videos, audio, and other rich media) via the OEmbed API. You only have to provide the URL to the site (It works also when the URL is shortened) you want to embed and the plugin does the rest. Examples of currently supported sites include: YouTube, Vimeo, Flickr, Instagram, SoundCloud, among several others.
 
 ### Inserting Images
 
@@ -154,7 +154,7 @@ The **URL** box allows you to specify which image you want to insert. If you are
 
 _Figure 4_
 
-On the left hand side of the **Browse Images** window are your upload groups. You may have one or more of these groups. Choose the group in which you uploaded your image, and the right hand frame will refresh with thumbnails of the images within that group. You may select the image to insert by choosing one of the links below that image. The **Full** link will insert the image at full-size&mdash;the size you uploaded the image orginally. The **Small** link will insert a 100x100 pixel thumbnail and **Smaller** will insert the image as a 50x50 pixel thumbnail. These thumbnails are automatically created by Vitasite when you upload your image.
+On the left hand side of the **Browse Images** window are your upload groups. You may have one or more of these groups. Choose the group in which you uploaded your image, and the right hand frame will refresh with thumbnails of the images within that group. You may select the image to insert by choosing one of the links below that image. The **Full** link will insert the image at full-size&mdash;the size you uploaded the image originally. The **Small** link will insert a 100x100 pixel thumbnail and **Smaller** will insert the image as a 50x50 pixel thumbnail. These thumbnails are automatically created by Vitasite when you upload your image.
 
 The additional image options in the image dialog are outlined below:
 
@@ -165,7 +165,7 @@ The additional image options in the image dialog are outlined below:
 * **VSpace** - Adds vertical (margin) spacing to your image. This setting will affect both the top and bottom margins equally.
 * **Alignment** - Allows the user to define how the image aligns on the page. "&lt;not set&gt;" will allow the image to remain on it's own line without text wrapping around the image. "left" allows the image to align to the left of the page, with the text wrapping on the right. "right" does the reverse, aligning the image to the right side of the page, and text wrapping on the left.
 
-There are additonal options within the **Link** tab and **Advanced** tabs which are not covered in this guide.
+There are additional options within the **Link** tab and **Advanced** tabs which are not covered in this guide.
 
 Once you have selected your image and assigned any optional parameters, click the “OK” button to insert your image into the text window.
 
@@ -195,7 +195,7 @@ _Figure 6_
 
 _Figure 7_
 
-As [with all groups](../index.md#groups), **Content Groups**, shown in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
+As [with all groups](/#groups), **Content Groups**, shown in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
 
 ![Figure 8.](img/content_figure_8.png)
 
@@ -203,7 +203,7 @@ _Figure 8_
 
 The options within a content group set up are outlined below:
 
-* [**Private**](../index.md#private) – This check box is only available in a multiple sites installation of VitaSite. When this checkbox is selected, this group is marked as private and will not be visable to other sites within the same installation.
+* [**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. When this checkbox is selected, this group is marked as private and will not be visable to other sites within the same installation.
 * **Name** - The name given to the specific Content Group.
 * **Send** - Used in combination with the following "Email" field, enables email notifications when items within a group are added or updated.
 * **Email** - The email address or addresses notified when items are added or updated within this content group. Email addresses are a list sperated by either a comma (",") or semicolon (";").
