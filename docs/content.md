@@ -195,13 +195,13 @@ _Figure 6_
 
 _Figure 7_
 
-As [with all groups](../index.md#groups), **Content Groups**, showin in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
+As [with all groups](../index.md#groups), **Content Groups**, shown in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
 
 ![Figure 8.](img/content_figure_8.png)
 
 _Figure 8_
 
-The options within a Group set up are outlined below:
+The options within a content group set up are outlined below:
 
 * [**Private**](../index.md#private) – This check box is only available in a multiple sites installation of VitaSite. When this checkbox is selected, this group is marked as private and will not be visable to other sites within the same installation.
 * **Name** - The name given to the specific Content Group.
