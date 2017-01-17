@@ -48,7 +48,7 @@ Once you have completed these fields, you will generally proceed to the editor i
 
 ### Step Two
 
-Edit the content of the item. In this section you will work with the text and images that make up this item. 
+Edit the content of the item. In this section you will work with the text and images that make up this item.
 
 ![Figure 2.](img/content_figure_2.png)
 
@@ -86,8 +86,8 @@ If you have used a word processing tool (e.g. Microsoft Word, Google Docs, or Ap
 ### Typeface Options
 
 * **Styles Menu** - This menu allows you to apply a style to your text using the styles defined in your site’s cascading style sheet. This feature may be disabled or not utilized.
-* **Format Menu** - Described the paragraph format of the current line. By default the editor uses Paragraphs `<p>`. This menu allows you to change the current line to a Heading 1-6 (i.e. `<h1>`, `<h2>`, etc.) or a Division `<div>` element. There may be additional options depending on your installation.
-* **Font Menu** -  This menu allows you to select the typeface for you text. This option may be disabled if your site uses a cascading style sheet.
+* **Format Menu** - Described the paragraph format of the current line. By default the editor uses Paragraphs `<p>`. This menu allows you to change the current line to a Heading 1-6 (i.e. `<h1>`, `<h2>`, etc.) or a Division `<div>` element. There might be additional options depending on your installation.
+* **Font Menu** -  This menu allows you to select the typeface for you text. This option might be disabled if your site uses a cascading style sheet.
 * **Size Menu** -  This menu allows you to select the type size for you text. This option may be disabled if your site uses a cascading style sheet.
 * <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-color" /></span>**Font Color** - This button allows you to define the color of your text. This option may be disabled if your site uses a cascading style sheet.
 * <span class="sprite-wrap"><img src="../img/content_icons.png" alt="cut" class="sprite sprite-bgcolor" /></span>**Font Background Color** - This button allows you to define the background color, or highlight color, of your text. This option may be disabled if your site uses a cascading style sheet.
@@ -159,7 +159,7 @@ On the left hand side of the **Browse Images** window are your upload groups. Yo
 The additional image options in the image dialog are outlined below:
 
 * **Alternative Text** - Text inserted as an attribute of an image that tells website views and search engines the nature or contents of an image. This attribute is recommended for all images.
-* **Width & Height** - These fields will automatically be populated based upon your image's actual demensions. You may want to use this information to verify that your image will fit in your content. It's not recommended to chnage these values.
+* **Width & Height** - These fields will automatically be populated based upon your image's actual dimensions. You may want to use this information to verify that your image will fit in your content. It's not recommended to change these values.
 * **Border** - Allows you to define a border around your image, or to remove the border by using 0 in the field. This setting may override any site styles for your image.
 * **HSpace** - Adds horizontal (margin) spacing to your image. This setting will affect both the left and right margins equally.
 * **VSpace** - Adds vertical (margin) spacing to your image. This setting will affect both the top and bottom margins equally.
@@ -179,7 +179,7 @@ _Figure 5_
 
 #### Linking to an external resource
 
-If you are linking to an external resource, type your address in the the “URL” field. The link field should automatically strip and adjust your protocol (e.g. `http://` or `https://`) however, you may need to adjust the "Protocol" drop-down to match your intendend destination.  Once you click the “OK” button your link will be inserted into the text.
+If you are linking to an external resource, type your address in the the “URL” field. The link field should automatically strip and adjust your protocol (e.g. `http://` or `https://`) however, you may need to adjust the "Protocol" drop-down to match your intended destination.  Once you click the “OK” button your link will be inserted into the text.
 
 #### Linking to page
 
@@ -203,12 +203,16 @@ _Figure 8_
 
 The options within a content group set up are outlined below:
 
-* [**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. When this checkbox is selected, this group is marked as private and will not be visable to other sites within the same installation.
+* [**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. When this check box is selected, this group is marked as private and will not be visible to other sites within the same installation.
 * **Name** - The name given to the specific Content Group.
 * **Send** - Used in combination with the following "Email" field, enables email notifications when items within a group are added or updated.
-* **Email** - The email address or addresses notified when items are added or updated within this content group. Email addresses are a list sperated by either a comma (",") or semicolon (";").
+* **Email** - The email address or addresses notified when items are added or updated within this content group. Email addresses are a list separated by either a comma (",") or semicolon (";").
 * **Default Content Tags** - The **Tags** applied to each content item by default. _Note_ default content tags are only added when new content items are created, and are not retroactively applied or removed from content items.
 
 ## Content Filters
 
 _Documentation to come._
+
+*[WYSIWYG]: What You See Is What You Get
+*[SCAYT]: Spell Check As You Type
+*[URL]: Universal Resource Locator

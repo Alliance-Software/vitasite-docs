@@ -119,7 +119,7 @@ Once you have chosen **Preview** from the page admin page, you're presented with
 
 ## Properties
 
-Click on the properties button to edit the properties of a page. The properties of a page are simply pieces of information about the page, like its name and its position within the site. 
+Click on the properties button to edit the properties of a page. The properties of a page are simply pieces of information about the page, like its name and its position within the site.
 
 ![Figure 6](img/pages_figure_6.png)
 
