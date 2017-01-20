@@ -24,10 +24,9 @@ The tools described in the rest of this section allow you to manipulate pages an
 The admin uses the Page Editor tool to create pages, edit page properties, edit the content on a page, preview pages and delete pages. You can get access to the Page Editor by clicking on the “Pages” link in the left navigation bar with the "Content" section on any administrative page. Alternatively, you can click on the “Pages" link in the body of the main administrative screen.
 
 ![Figure 1.](img/pages_figure_1.png)
+*Figure 1*
 
-_Figure 1_
-
-You can see a representation of the main Page Editor screen in Figure 1. On this screen you can see all the pages in your site. The pages are arranged in a tree structure, with related pages grouped together, and with sub-pages indented under their respective parent pages. This arrangement makes it easy for you to find the page you need, and it helps you keep the content of your site organized.
+You can see a representation of the main Page Editor screen in **Figure 1**. On this screen you can see all the pages in your site. The pages are arranged in a tree structure, with related pages grouped together, and with sub-pages indented under their respective parent pages. This arrangement makes it easy for you to find the page you need, and it helps you keep the content of your site organized.
 
 Next to each page is a group of up to five buttons. Each button performs a specific function, as follows:
 
@@ -42,25 +41,22 @@ Next to each page is a group of up to five buttons. Each button performs a speci
 Click on the edit button to add, arrange or delete the content that appears on a specific page. When you click the button, a new browser window will open showing a representation of what the page will look like to your site visitors.
 
 ![Figure 2](img/pages_figure_2.png)
+*Figure 2*
 
-_Figure 2_
-
-There are two buttons at the top of this page (see Figure 2) labeled “Save” and “Cancel.” Each button performs the following function:
+There are two buttons at the top of this page (see **Figure 2**) labeled “Save” and “Cancel.” Each button performs the following function:
 
 * **Save** – Saves any changes you have made to the page, and closes the edit window
 * **Cancel** – Discards any changes, and closes the edit window
 
 ![Figure 3](img/pages_figure_3.png)
+*Figure 3*
 
-_Figure 3_
-
-On any given page there will be one or more areas, called content areas, which you can edit. If no items are on the page, the tool bar only displays an 'Add Item" button (see Figure 3), meaning that the only action you can take is to add an item to the page.
+On any given page there will be one or more areas, called content areas, which you can edit. If no items are on the page, the tool bar only displays an 'Add Item" button (see **Figure 3**), meaning that the only action you can take is to add an item to the page.
 
 ![Figure 4](img/pages_figure_4.png)
+*Figure 4*
 
-_Figure 4_
-
-If there are existing items on a page, these areas are indicated by small numbers in the top left-hand side of each 'content' block. If you hover, or tap on a mobile device, a red outline will appear with an associated toolbar with each content item. gray header, as shown in Figure 4. Inside the content area there is a toolbar associated with each content item. There can be multiple items on a page, and each item will have its own toolbar. The full toolbar contains the following buttons:
+If there are existing items on a page, these areas are indicated by small numbers in the top left-hand side of each 'content' block. If you hover, or tap on a mobile device, a red outline will appear with an associated toolbar with each content item. gray header, as shown in **Figure 4**. Inside the content area there is a toolbar associated with each content item. There can be multiple items on a page, and each item will have its own toolbar. The full toolbar contains the following buttons:
 
 * **Width:** Sets the item to a specific width to achieve a 'column' effect. See note below.
 * **Move To:** Allows reordering of items on a page within a specific content zone. Set the number of the content item you want to move the existing one to. All other content items on the page shift downward.
@@ -109,11 +105,10 @@ Now, all you have to do to update the content displayed in the filter is add a n
 
 ## Preview
 
-If your website is built with a <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">responsive design</a> (i.e. the site _responds_ to different device widths) the preview tools allow the admin to view their webpage within certain pre-defined responsive break points. The tool works whether or not the page is live and is only accessible to admins.
+If your website is built with a <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">responsive design</a> (i.e. the site _responds_ to different device widths) the preview tools shown in **Figure 5** allows the admin to view their webpage within certain pre-defined responsive break points. The tool works whether or not the page is live and is only accessible to admins.
 
 ![Figure 5](img/pages_figure_5.png)
-
-_Figure 5_
+*Figure 5*
 
 Once you have chosen **Preview** from the page admin page, you're presented with a view of your page scaled to the current browser window. Choosing a size along the top bar will size the page down to that specific window width, so you may make sure your page works and your page content does not overflow. For instance 480 pixels (480px) is a common mobile size. Clicking it will resize your page to simulate devices whose screens are 480px wide. Choosing Reset will restore your page to the browser's full width.
 
@@ -122,10 +117,9 @@ Once you have chosen **Preview** from the page admin page, you're presented with
 Click on the properties button to edit the properties of a page. The properties of a page are simply pieces of information about the page, like its name and its position within the site.
 
 ![Figure 6](img/pages_figure_6.png)
+*Figure 6*
 
-_Figure 6_
-
-The properties page is shown in Figure 6. Changes made to page properties do not take effect until the “Save” button is clicked at the bottom of the page. Each of the fields is described below.
+The properties page is shown in **Figure 6**. Changes made to page properties do not take effect until the “Save” button is clicked at the bottom of the page. Each of the fields is described below.
 
 * **Page Link Name** – The page link name is used to identify the page in the administrative tools, and for any navigational links VitaSite creates to help your users find this page (such as the left navigation bar or in the breadcrumbs trail). This name should be descriptive, but short.
 * **Page Title** – The page title defines what shows up at the top of the user’s browser window when they visit this page. This title should be consistent with the Page Link Name, but can be longer.
@@ -140,7 +134,7 @@ The properties page is shown in Figure 6. Changes made to page properties do not
 * **META Description** – This option is seldom used, but is still available. Advanced users can use this field to define the text that appears in the META description tag for the page. At one time, search engines used this tag to determine what search phrases were relevant for a given page. Many search engines still use this tag to show information about this page in search results. If no description is defined, then the page uses the META description tag defined in the template for this page, if any.
 * **Site Association** - Overrides the navigation element of the page and associates this page's navigation list with the site selected. The page will be treated as a top-level page in the navigation and will not show in the list.
 * **Override** - This along with the next two settings are used in coordination. This option overrides the navigation element, turning this page into a link. This is useful when you want a user to click on the page and navigate to something other than a page. Checking the box will enable the two options below. If it is unchecked, the next two options are ignored.
-* **Override URL** - This is the URL that the user will navigate to when this page is clicked in the navigation list. This can be either a relative (e.g. '/somepage') or an absolute (e.g. 'http://www.vitasite.com') URL.
+* **Override URL** - This is the URL that the user will navigate to when this page is clicked in the navigation list. This can be either a relative (e.g. '/somepage') or an absolute (e.g. '[http://www.vitasite.com](http://www.vitasite.com)') URL.
 * **Link Type** - Controls how the link will open the URL above. By default, the URL will open in the same window, but can be changed to open in other ways (e.g. '_blank' will open the URL in a new Window or Tab depending on the user's browser preferences).
 * **Slug** - If your Vitasite installation supports 'clean URLs' then this field controls the URL of your page. By default if the Slug is not provided one is created for you from the **Page Link Name**. Any text in this field is normalized to work in a URL, so spaces are converted to dashes ('-') and any characters not allowed in a URL are removed. Two pages on the same site cannot have the same slug. The system will try and create a non-conflicting slug for you by appending '-new' to your URL.
 * **Mater File** – This option allows you to choose a different look and feel for this page. This setting will default to your site default, but may be overridden.

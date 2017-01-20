@@ -5,10 +5,9 @@ Content Items make up the bulk of the text on your site. Pages are the placehold
 The Content Editor tool is used to create content items, edit content properties, edit the content itself, and delete content items. You can access the Content Editor by clicking on the “Content Items” link in the left navigation bar, within the "Content" section on any administrative page. Alternatively, you can click on “Content Items" link in the body of the main administrative screen.
 
 ![Figure 1.](img/content_figure_1.png)
+*Figure 1*
 
-_Figure 1_
-
-A representation of the main Content Editor screen is shown in Figure 1. On this screen you can see all the content items in your site. The top of the page contains a link allowing you to create new content items.
+A representation of the main Content Editor screen is shown in **Figure 1**. On this screen you can see all the content items in your site. The top of the page contains a link allowing you to create new content items.
 
 The bottom part of the screen lists your existing content items in alphabetical order. You can change the sort order by clicking on one of the other column header links. Next to each item is a check box that allows you to perform certain actions on one or more content items. The actions that can be taken are shown in the “Action” menu at the start of the content item listing.
 
@@ -24,25 +23,18 @@ To create a new content item, click the “New Content Item” link at the top o
 
 Define the Properties for the Content Item. In this step, you will assign descriptive information about the content item using these fields:
 
-**Select a Group** – This menu is used to assign this content item to a content group. It is a required field.
+* **Select a Group** – This menu is used to assign this content item to a content group. It is a required field.
+* **Name** – This is the descriptive name used to identify the content item. When the content item is used as part of a content filter, this field is used as the headline for this content item. Otherwise, site visitors will not see this name.
+* **Live** – This check box determines whether this content item can be seen by your site visitors. If the content item is not live (the box is not checked), then visitors to your site will not see this item. Once you make the content item live (by checking the box and saving your changes), VitaSite will make it available for your web site visitors to see. This functionality allows you to work with an item in the administrative tools until you get it finished, without making it available on the site until it is ready.
+* [**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
 
-**Name** – This is the descriptive name used to identify the content item. When the content item is used as part of a content filter, this field is used as the headline for this content item. Otherwise, site visitors will not see this name.
+*If you are creating a regular content item, you can proceed to [Step 2](#step-two). The following options only apply to content used in a [content filter](#content-filters).*
 
-**Live** – This check box determines whether this content item can be seen by your site visitors. If the content item is not live (the box is not checked), then visitors to your site will not see this item. Once you make the content item live (by checking the box and saving your changes), VitaSite will make it available for your web site visitors to see. This functionality allows you to work with an item in the administrative tools until you get it finished, without making it available on the site until it is ready.
-
-[**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
-
-_If you are creating a regular content item, you can proceed to [Step 2](#step-two). The following options only apply to content used in a [content filter](#content-filter)._
-
-**Author** – This is an optional field used to identify the author of the content item. If the item is used in a [content filter](#content-filter), the information in this field is shown to users as part of the content summary. Otherwise, site users do not see this field.
-
-**Image Upload** - This is an optional field used to identify a thumbnail image for this content item when it is used in a [content filter](#content-filter). The content filter settings further describe how the image is used.
-
-**Publish Date** – This is an optional field used to determine when a content item should appear in a [content filter](#content-filter). It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
-
-**Expire Date** – This is an optional field used to determine when a content item should disappear in a [content filter](#content-filter). It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
-
-**Summary** – This is an optional field used to provide a short summary of the content item. It is only used when an item is part of a [content filter](#content-filter), and the content filter has been set to show summaries.
+* **Author** – This is an optional field used to identify the author of the content item. If the item is used in a [content filter](#content-filter), the information in this field is shown to users as part of the content summary. Otherwise, site users do not see this field.
+* **Image Upload** - This is an optional field used to identify a thumbnail image for this content item when it is used in a [content filter](#content-filter). The content filter settings further describe how the image is used.
+* **Publish Date** – This is an optional field used to determine when a content item should appear in a [content filter](#content-filter). It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
+* **Expire Date** – This is an optional field used to determine when a content item should disappear in a [content filter](#content-filter). It only applies to content filters, and does not affect the appearance of the content item when it is inserted on a page.
+* **Summary** – This is an optional field used to provide a short summary of the content item. It is only used when an item is part of a [content filter](#content-filter), and the content filter has been set to show summaries.
 
 Once you have completed these fields, you will generally proceed to the editor in [Step 2](#step-two).
 
@@ -51,10 +43,9 @@ Once you have completed these fields, you will generally proceed to the editor i
 Edit the content of the item. In this section you will work with the text and images that make up this item.
 
 ![Figure 2.](img/content_figure_2.png)
+*Figure 2*
 
-_Figure 2_
-
-The **Text** block uses a visual what-you-see-is-what-you-get (WYSIWYG) editor, which allows you to control the appearance of your content item without having to learn HTML. An image of the WYSIWYG editor is shown in Figure 2. You can learn more about the editor in the [Using the WYSIWYG Editor](#using-the-wysiwyg-editor) section below.
+The **Text** block uses a visual what-you-see-is-what-you-get (WYSIWYG) editor, which allows you to control the appearance of your content item without having to learn HTML. An image of the WYSIWYG editor is shown in **Figure 2**. You can learn more about the editor in the [Using the WYSIWYG Editor](#using-the-wysiwyg-editor) section below.
 
 Once you have completed your text edits, use the **Save and Continue** button at the bottom of the wizard to continue. If you do not want to save your text edits, select the “cancel” link.
 
@@ -135,24 +126,22 @@ If you have used a word processing tool (e.g. Microsoft Word, Google Docs, or Ap
 
 !!! note
     Not all plug-ins available are listed here. This section includes some commonly included plugins in Vitasite installations. Please contact your system administrator for more information and options for the CKEditor.
-    
+
 * <span class="sprite-wrap"><img src="../img/content_icons.png" alt="embed" class="sprite sprite-embed" /></span>**Embed Media from External Sites** - This Plugin allows you to insert embedded content (such as photos, videos, audio, and other rich media) via the OEmbed API. You only have to provide the URL to the site (It works also when the URL is shortened) you want to embed and the plugin does the rest. Examples of currently supported sites include: YouTube, Vimeo, Flickr, Instagram, SoundCloud, among several others.
 
 ### Inserting Images
 
-When you click the Insert Image button the dialog shown in Figure 3 is opened. This dialog allows you to choose the image you want to insert, and to define the parameters for the image.
+When you click the Insert Image button the dialog shown in **Figure 3** is opened. This dialog allows you to choose the image you want to insert, and to define the parameters for the image.
 
 ![Figure 3.](img/content_figure_3.png)
-
-_Figure 3_
+*Figure 3*
 
 Inserting images directly in content is helpful if you want to be able to wrap your images around your text or to more closely direct the placement of your images in content.
 
-The **URL** box allows you to specify which image you want to insert. If you are using an image from the Web, type the full address to the image you want to use in the URL field. If you have previously uploaded an image using the Media Uploads tool, select the **Browse Server** option. Then you can navigate to your image in the window that pops up, shown in Figure 4.
+The **URL** box allows you to specify which image you want to insert. If you are using an image from the Web, type the full address to the image you want to use in the URL field. If you have previously uploaded an image using the Media Uploads tool, select the **Browse Server** option. Then you can navigate to your image in the window that pops up, shown in **Figure 4**.
 
 ![Figure 4.](img/content_figure_4.png)
-
-_Figure 4_
+*Figure 4*
 
 On the left hand side of the **Browse Images** window are your upload groups. You may have one or more of these groups. Choose the group in which you uploaded your image, and the right hand frame will refresh with thumbnails of the images within that group. You may select the image to insert by choosing one of the links below that image. The **Full** link will insert the image at full-size&mdash;the size you uploaded the image originally. The **Small** link will insert a 100x100 pixel thumbnail and **Smaller** will insert the image as a 50x50 pixel thumbnail. These thumbnails are automatically created by Vitasite when you upload your image.
 
@@ -171,11 +160,10 @@ Once you have selected your image and assigned any optional parameters, click th
 
 ### Creating Links
 
-When you click the Insert Hyperlink button the dialog shown in Figure 5 is opened. This dialog allows you to choose the hyperlink you want to insert, and to define any optional parameters. You may link text by highlighting it first, and then selecting the hyperlink button. You may also link images in the same manner.
+When you click the Insert Hyperlink button the dialog shown in **Figure 5** is opened. This dialog allows you to choose the hyperlink you want to insert, and to define any optional parameters. You may link text by highlighting it first, and then selecting the hyperlink button. You may also link images in the same manner.
 
 ![Figure 5.](img/content_figure_5.png)
-
-_Figure 5_
+*Figure 5*
 
 #### Linking to an external resource
 
@@ -183,25 +171,22 @@ If you are linking to an external resource, type your address in the the “URL�
 
 #### Linking to page
 
-If you are linking to a page from your VitaSite, choose the "Browse Server" option. Then you will be able to navigate to the page you want using the window on the right. Then you can navigate to your link in the window that pops up, shown in Figure 6.
+If you are linking to a page from your VitaSite, choose the "Browse Server" option. Then you will be able to navigate to the page you want using the window on the right. Then you can navigate to your link in the window that pops up, shown in **Figure 6**.
 
 ![Figure 6.](img/content_figure_6.png)
-
-_Figure 6_
+*Figure 6*
 
 ## Content Groups
 
 ![Figure 7.](img/content_figure_7.png)
+*Figure 7*
 
-_Figure 7_
-
-As [with all groups](/#groups), **Content Groups**, shown in Figure 7, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
+As [with all groups](/#groups), **Content Groups**, shown in **Figure 7**, allow for an admin to organize their site's content into to specific "folders." Content groups can also be used to organize content for use in [Content Filters](#content-filters). Each content group has an optional setting that allows you to specify an email address for a person responsible for that content group. When any change is made to an item in that group, an email notification is sent to that address.
 
 ![Figure 8.](img/content_figure_8.png)
+*Figure 8*
 
-_Figure 8_
-
-The options within a content group set up are outlined below:
+The options within a content group set up, shown in **Figure 8**, are outlined below:
 
 * [**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. When this check box is selected, this group is marked as private and will not be visible to other sites within the same installation.
 * **Name** - The name given to the specific Content Group.
@@ -211,7 +196,39 @@ The options within a content group set up are outlined below:
 
 ## Content Filters
 
-_Documentation to come._
+Content Filters are a powerful way of manipulating content items, so that a page is updated automatically every time a new content item is created. If this if the first time you are setting up a filter, you might want to read the general concepts that apply to [all  filters](/#filters) within VitaSite. The following steps show how to insert a content filter onto a page:
+
+### Filters Step One
+
+From the edit window for a page, click on a 'Add Item' insertion button to launch the page insertion wizard. This will open a new dialog window, with the first set of options.
+
+Choose “Content Filter” from the list in the page insertion wizard.
+
+### Filters Step Two
+
+![Figure 9.](img/content_figure_9.png)
+*Figure 9*
+
+This step shows two panes as shown in **Figure 9**.
+
+* **Select the groups to filter** - In the left pane, select the group(s) you want to pull items from by placing a checkmark next to the group name.
+* **Max items to display per page** - In the right pane, enter the number of content items that you want to display. If you'd like for the archive to display a year's worth of content on each page, leave the number 0.
+* **Show Pagination** - Toggles whether the pagination controls show at the bottom of the content filter. If left off, the content filter will not show any additional item past the value of "Max items" above.
+* **Show summaries** - Include the content item's "Summary" field along with each content item in the filter.
+* **Hide dates** - Choose whether or not to show the content item's date. The content item will show the "Publish Date" value, unless empty in which case it will use the date the content item was created.
+* **Show associated images** - Allows the "Image Upload" featured image to be show alongside the content item, if designated. You also have a choice if the image appears to the left, right, above or below the content filter item. If the filter is set to show images but an item does not have an assoicated upload, it will not display an image.
+* **Filter Heading** - The headline you want to display over this content on the page.
+* **'More' link URL** - Allows the admin to create a link to another page where the user can find additonal content.
+* **'More' link text** - Allows the admin to override the 'More' default text to a custom string.
+* **Tags to include** - If enabled, tags allow the filter to be further refinded only showing content items that match tags designated within the filtered groups. This feature allows the admin to limit content items to relevant ones, especially if a site is pulling content in from a much larger repository of content from another site.
+
+Once you have done this, click “Add Filter.”
+
+### Filters Step Three
+
+The page insertion dialog closes, and the content filter you created is added to the edit window. This content filter will NOT appear on the site until you click either the “Save” or the “Save and Close” button at the top of the edit window.
+
+Now, all you have to do to update the content displayed in the filter is add a new content item to one of the groups you selected to pull from for this filter. As soon as you save the content item, it shows up at the top of the filter and the oldest item disappears from the bottom of the filter.
 
 *[WYSIWYG]: What You See Is What You Get
 *[SCAYT]: Spell Check As You Type
