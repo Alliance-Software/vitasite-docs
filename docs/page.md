@@ -82,7 +82,6 @@ From the edit window for a page, you can click on an 'Add Item' button (either d
 !!!note
     Choose the site. If you are working in a single-site environment, you will not see this option. In multiple site environments, this option allows you to choose content from a different site. The selection defaults to the site you are working on, the option you will choose most often. If you do select a different site, the dialog will refresh and the items from that tool will appear in the dialog box from Step 2.
 
-
 The page insertion window closes, and the item you selected is added to the edit window. This item will not appear on the site until you click the **Save** button at the top of the page editor window.
 
 Inserting items of other types works in the same way. You narrow your selection options by making choices in each step, until the item you want is inserted on the page.

@@ -48,8 +48,8 @@ If you have a photo in your gallery which you would like to remove, chose "Remov
 Once you have finished editing the photo feature, click the “Save and Continue” button to exit the tool. You can now insert the photo feature on any page by using the page insertion wizard in the [Page Editor](page/#page-editor) tool.
 
 ## Photo Feature Groups
-9
-As [with all groups](/#groups), **Photo Feature Groups** shown in **Figure 3**) allow for an admin to organize their site's photo features into specific "folders." Photo feature groups can also be used to organize content for use in [Photo Feature Filters](#photo-feature-filters).
+
+As [with all groups](/#groups), **Photo Feature Groups** (shown in **Figure 3**) allow for an admin to organize their site's photo features into specific "folders." Photo feature groups can also be used to organize content for use in [Photo Feature Filters](#photo-feature-filters).
 
 ![Figure 3.](img/feature_figure_3.png)
 *Figure 3*
