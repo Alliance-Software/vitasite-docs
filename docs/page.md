@@ -68,6 +68,7 @@ If there are existing items on a page, these areas are indicated by small number
 It is important to remember that changes you make using these buttons are not saved until you click **Save** or at the top of the window, with the exception of changes made with the **Edit Item** button. This allows you to experiment with various items, without committing to those experiments until you are satisfied with the appearance of the page.
 
 ### The Page Insertion Wizard
+
 The page insertion wizard allows you to quickly locate an item that you want to insert on the page. Each step of the wizard allows you to make a choice which narrows the options you see in the next step, leading to the last step of inserting a specific item onto the page. In this Users Guide, we will cover the page insertion wizard options that are common among all VitaSite installations. If your installation includes a plug-in, you may see additional options in the page insertion wizard.
 
 In this example, we’ll follow the specific options for inserting a content item on this page. These are the same steps you will follow to insert other item types on the page, with the exception of the “filter” type. [Filters](#filters) work differently than the other item types, [and will be dealt with separately](#filters).
