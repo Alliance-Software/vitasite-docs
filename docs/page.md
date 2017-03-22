@@ -2,9 +2,9 @@
 
 With VitaSite™, you organize your web site using Pages and Content. Pages are placeholders for information. [Content](content.md) is the information you put on those pages.
 
-Think of Pages as an outline of your site. The top-level is your home page. Under that you might have six or seven sub-pages that organize information about your company in a logical way. In turn, each of those sub-pages may have sub-pages under them, which further describe the information in that section.
+Think of Pages as an outline of your site. The top-level is your home page. Under that, you might have six or seven sub-pages that organize information about your company in a logical way. In turn, each of those sub-pages may have sub-pages under them as well, which further describe the information in that section.
 
-For example, if we wanted to take this Users Guide and make it into a web site, then we might outline it into Pages and Sub-Pages as follows:
+For example, if we wanted to take this User Guide and make it into a website, then we might outline it into Pages and Sub-Pages as follows:
 
 1. Home Page
     1. Pages
@@ -21,17 +21,17 @@ The tools described in the rest of this section allow you to manipulate pages an
 
 ## Page Editor
 
-The admin uses the Page Editor tool to create pages, edit page properties, edit the content on a page, preview pages and delete pages. You can get access to the Page Editor by clicking on the “Pages” link in the left navigation bar with the "Content" section on any administrative page. Alternatively, you can click on the “Pages" link in the body of the main administrative screen.
+The admin uses the Page Editor tool to create pages, edit page properties, edit the content on a page, and preview and delete pages. You can access the Page Editor by clicking on the “Pages” link in the left navigation bar in the "Content" section on any administrative page. Alternatively, you can click on the “Pages" link in the body of the main administrative screen.
 
 ![Figure 1.](img/pages_figure_1.png)
 *Figure 1*
 
 You can see a representation of the main Page Editor screen in **Figure 1**. On this screen you can see all the pages in your site. The pages are arranged in a tree structure, with related pages grouped together, and with sub-pages indented under their respective parent pages. This arrangement makes it easy for you to find the page you need, and it helps you keep the content of your site organized.
 
-Next to each page is a group of up to five buttons. Each button performs a specific function, as follows:
+Next to each page is a group of five buttons. Each button performs a specific function, as follows:
 
 * **[Edit](#edit):** This button allows you edit the content that appears on the page.
-* **[Preview](#preview):** This allows you to preview a page and includes controls to allow for testing of a responsive website.
+* **[Preview](#preview):** This button allows you to preview a page and includes controls to allow for testing of a responsive website.
 * **[Properties](#properties):** This button allows you to edit the properties of the page.
 * **[Add Sub-Page](#add-sub-page):** This button adds a sub-page under the current page.
 * **[Delete](#delete):** This button deletes the current page from the site.
@@ -43,10 +43,7 @@ Click on the edit button to add, arrange or delete the content that appears on a
 ![Figure 2](img/pages_figure_2.png)
 *Figure 2*
 
-There are two buttons at the top of this page (see **Figure 2**) labeled “Save” and “Cancel.” Each button performs the following function:
-
-* **Save** – Saves any changes you have made to the page, and closes the edit window
-* **Cancel** – Discards any changes, and closes the edit window
+There are two functions available at the top of this page. (see **Figure 2**) The "Save" button saves any changes you have made to the page and closes the edit window, while the "Cancel" button discards any changes and closes the edit window.
 
 ![Figure 3](img/pages_figure_3.png)
 *Figure 3*
@@ -60,26 +57,26 @@ If there are existing items on a page, these areas are indicated by small number
 
 * **Width:** Sets the item to a specific width to achieve a 'column' effect. See note below.
 * **Move To:** Allows reordering of items on a page within a specific content zone. Set the number of the content item you want to move the existing one to. All other content items on the page shift downward.
-* **Add Item:** Add additional items to this page. Brings up the 'Add Item' dialog box.
-* **Remove Item:** This button removes this item from the page. However, it does not delete the item from the system. The item can still be used on other pages.
-* **Edit Item:** This button (which may not be available for every item type) opens the editor for that specific item type.
-* **Info:** This button identifies the item by Group, Item Name, and Item Key. This information may be helpful to your site administrator in the case you get stuck.
+* **Add Item:** Adds additional items to this page. Brings up the 'Add Item' dialog box.
+* **Remove Item:** Removes this item from the page. However, it does not delete the item from the system. The item can still be used on other pages.
+* **Edit Item:** Opens the editor for that specific item type (may not be available for every item type).
+* **Info:** Identifies the item by Group, Item Name, and Item Key. This information may be helpful to your site administrator in the case you get stuck.
 
 !!! note
-    The **Width** button allows you to add 'column' effects for your content. By default, all content items placed on a page will take up the 'full-width' of the content area. Your VitaSite installation may have one or more options under this menu. The CMS will automatically determine the width and number of items of each row, using the widths you assign to each item. For instance placing two content items with their width set to one-half (1/2) will result in a two-column effect. Any items that overflow the row will automatically drop under items in the current row. Be careful not to leave a row with an empty space or to make items too small where they might be usable to your users (e.g. Email Forms or Event Registrations).
+    The **Width** button allows you to add 'column' effects for your content. By default, all content items placed on a page will take up the 'full-width' of the content area. Your VitaSite installation may have one or more options under this menu. The CMS will automatically determine the width and number of items of each row, using the widths you assign to each item. For instance, placing two content items with their width set to one-half (1/2) will result in a two-column effect. Any items that overflow the row will automatically drop under items in the current row. Be careful not to leave a row with an empty space, or to make items too small where they might be unusable to your users (e.g. Email Forms or Event Registrations).
 
 It is important to remember that changes you make using these buttons are not saved until you click **Save** or at the top of the window, with the exception of changes made with the **Edit Item** button. This allows you to experiment with various items, without committing to those experiments until you are satisfied with the appearance of the page.
 
 ### The Page Insertion Wizard
-The page insertion wizard allows you to quickly locate an item that you want to insert on the page. At each step of the wizard you make a choice which narrows the options you see in the next step, leading to the last step of inserting a specific item onto the page. In this Users Guide, we will cover the page insertion wizard options that are common among all VitaSite installations. If your installation includes a plug-in, you may see additional options in the page insertion wizard.
+The page insertion wizard allows you to quickly locate an item that you want to insert on the page. Each step of the wizard allows you to make a choice which narrows the options you see in the next step, leading to the last step of inserting a specific item onto the page. In this Users Guide, we will cover the page insertion wizard options that are common among all VitaSite installations. If your installation includes a plug-in, you may see additional options in the page insertion wizard.
 
 In this example, we’ll follow the specific options for inserting a content item on this page. These are the same steps you will follow to insert other item types on the page, with the exception of the “filter” type. [Filters](#filters) work differently than the other item types, [and will be dealt with separately](#filters).
 
 From the edit window for a page, you can click on an 'Add Item' button (either directly on a page or within an existing content item) to launch the page insertion wizard. This will open a new dialog window, with the first set of options.
 
-1. **Step 1:** Choose the item type. There are several different types of items you can choose to insert. Each type is explained in the section of this guide devoted to the tools for that item. In most cases, you will be inserting a content item. For practice, choose **Content Item** from the list. The dialog will automatically go to the next page.
+**Step 1:** Choose the item type. There are several different types of items you can choose to insert. Each type is explained in the section of this guide devoted to the tools for that item. In most cases, you will be inserting a content item. For practice, choose **Content Item** from the list. The dialog will automatically go to the next page.
 
-1. **Step 2:** Start typing the name of the item in the field at the top. The CMS will search through all items within that tool and retrieve the ones based upon your text. You may know this as an autocomplete or type-ahead function. Select the entry and then choose **Add Item**.
+**Step 2:** Start typing the name of the item in the field at the top. The CMS will search through all items within that tool and retrieve the ones based upon your text. You may know this as an autocomplete or type-ahead function. Select the entry and then choose **Add Item**.
 
 !!!note
     Choose the site. If you are working in a single-site environment, you will not see this option. In multiple site environments, this option allows you to choose content from a different site. The selection defaults to the site you are working on, the option you will choose most often. If you do select a different site, the dialog will refresh and the items from that tool will appear in the dialog box from Step 2.
@@ -91,26 +88,26 @@ Inserting items of other types works in the same way. You narrow your selection 
 
 ### Filters
 
-In step two of the page insertion wizard, you are given the option of choosing a one or more filters. You may want to [learn about the general concepts of filters](/#filters), before adding your first filter. The following steps show how to insert a [**Content Filter**](content.md#content-filter) on a page:
+In step two of the page insertion wizard, you are given the option of choosing one or more filters. You may want to [learn about the general concepts of filters](/#filters) before adding your first filter. The following steps show how to insert a [**Content Filter**](content.md#content-filter) on a page:
 
 From the edit window for a page, click on an **Add Item** button to launch the page insertion wizard. This will open a new browser window, with the first set of options.
 
-1. **Step 1:** Choose “Content Filter” from the list and click “Next.”
+**Step 1:** Choose “Content Filter” from the list and click “Next.”
 
-1. **Step 2:** This step shows two panes. In the left pane, select the group or groups you want to pull items from by placing a check mark next to the group name. In the right pane, enter the number of content items that you want to display, choose whether or not to show summaries, and then type in the headline you want to display over this content on the page. Once you have done this, click “Next.”
+**Step 2:** This step shows two panes. In the left pane, select the group or groups you want to pull items from by placing a check mark next to the group name. In the right pane, enter the number of content items that you want to display, choose whether or not to show summaries, then type in the headline you want to display over this content on the page. Once you have done this, click “Next.”
 
-1. **Step 3:** The page insertion window closes, and the content filter you created is added to the edit window. This content filter will not appear on the site until you click the **Save** button at the top of the edit window.
+**Step 3:** The page insertion window closes, and the content filter you created is added to the edit window. This content filter will not appear on the site until you click the **Save** button at the top of the edit window.
 
 Now, all you have to do to update the content displayed in the filter is add a new content item to one of the groups you selected to pull from for this filter. As soon as you save the content item, it shows up at the top of the filter and the oldest item disappears from the bottom of the filter.
 
 ## Preview
 
-If your website is built with a <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">responsive design</a> (i.e. the site _responds_ to different device widths) the preview tools shown in **Figure 5** allows the admin to view their webpage within certain pre-defined responsive break points. The tool works whether or not the page is live and is only accessible to admins.
+If your website is built with a <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">responsive design</a> (i.e. the site _responds_ to different device widths), the preview tools shown in **Figure 5** allows the admin to view their webpage within certain pre-defined responsive break points. The tool works whether or not the page is live and is only accessible to admins.
 
 ![Figure 5](img/pages_figure_5.png)
 *Figure 5*
 
-Once you have chosen **Preview** from the page admin page, you're presented with a view of your page scaled to the current browser window. Choosing a size along the top bar will size the page down to that specific window width, so you may make sure your page works and your page content does not overflow. For instance 480 pixels (480px) is a common mobile size. Clicking it will resize your page to simulate devices whose screens are 480px wide. Choosing Reset will restore your page to the browser's full width.
+Once you have chosen **Preview** from the page admin page, you're presented with a view of your page scaled to the current browser window. Choosing a size along the top bar will size the page down to that specific window width, so you can make sure your page works and your page content does not overflow. For instance, 480 pixels (480px) is a common mobile size. Clicking it will resize your page to simulate devices whose screens are 480px wide. Choosing Reset will restore your page to the browser's full width.
 
 ## Properties
 

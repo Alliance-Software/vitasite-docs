@@ -1,6 +1,6 @@
 # Photo Features
 
-The Photo Features tool is used to upload several images that are related, and that are to be displayed in a mini-gallery format. For example, suppose you have several images from a recent open house event. The photo features tool allows you to create a gallery of these images called Open House. When a user selects the Open House gallery, he or she will see a series of thumbnail images of the photos you uploaded.
+The Photo Features tool is used to upload several images that are related and displayed in a mini-gallery format. For example, suppose you have several images from a recent open house event. The photo features tool allows you to create a gallery of these images called Open House. When a user selects the Open House gallery, they will see a series of thumbnail images of the photos you uploaded.
 
 When the user clicks on one of these images, the full-size version is displayed in a lightbox dialog. The user can then navigate to the next or previous image in the gallery by using the links that are created automatically for the gallery.
 
@@ -15,11 +15,11 @@ To create a new photo feature gallery, click the “New Photo Feature” link at
 
 Define the Properties for the Photo Feature shown in **Figure 1**. In this step, you will assign descriptive information about the photo feature using these fields:
 
-* **Name** – This is the descriptive name used to identify the photo feature to site users. When a photo feature is inserted on a page, the name, author, date and description are displayed as a text item. The name is a link to the thumbnails page for the photo feature.
+* **Name** – This is the descriptive name used to identify the photo feature to site users. When a photo feature is inserted on a page, the name, author, date and description are displayed as a text item. The name functions as a link to the thumbnails page for the photo feature.
 * **Author** – This is an optional field used to identify the author of the photo feature.
 * **Date** – This is an optional field used to identify the date of the photo feature.
-* **Feature Group** - This menu is used to assign this photo feature to a feature group. It is a required field.
-* [**Private**](/#private) – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
+* **Feature Group** - This menu is used to assign the selected photo feature to a feature group. It is a required field.
+* [**Private**](/#private) – This check box is only available in a multiple-sites installation of VitaSite. If this box is checked, this item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.
 * **Live** – This checkbox determines whether this photo feature can be seen by your site visitors. If the photo feature is not live (the box is not checked), then visitors to your site will not see this photo feature. Once you make the photo feature live (by checking the box and saving your changes), VitaSite will make it available for your web site visitors to see. This functionality allows you to work with a photo feature in the administrative tools until you get it finished, without making it available on the site until it is ready.
 * **Description** – This field is used to describe the photo feature.
 
@@ -48,8 +48,8 @@ If you have a photo in your gallery which you would like to remove, chose "Remov
 Once you have finished editing the photo feature, click the “Save and Continue” button to exit the tool. You can now insert the photo feature on any page by using the page insertion wizard in the [Page Editor](page/#page-editor) tool.
 
 ## Photo Feature Groups
-
-As [with all groups](/#groups), **Photo Feature Groups** shown in **Figure 3**, allow for an admin to organize their site's photo featuress into specific "folders." Photo feature groups can also be used to organize content for use in [Photo Feature Filters](#photo-feature-filters).
+9
+As [with all groups](/#groups), **Photo Feature Groups** shown in **Figure 3**) allow for an admin to organize their site's photo features into specific "folders." Photo feature groups can also be used to organize content for use in [Photo Feature Filters](#photo-feature-filters).
 
 ![Figure 3.](img/feature_figure_3.png)
 *Figure 3*
@@ -60,7 +60,7 @@ The options within a photo feature group set up are outlined below:
 
 ## Photo Feature Filters
 
-Photo Feature Filters are a powerful way of manipulating photo feature galleries, so that a page is updated automatically every time a new photo feature is created. If this if the first time you are setting up a filter, you might want to read the general concepts that apply to [all  filters](/#filters) within VitaSite. The following steps show how to insert a photo feature filter onto a page:
+Photo Feature Filters are a powerful way of manipulating photo feature galleries, so that a page is updated automatically every time a new photo feature is created. If this is the first time you are setting up a filter, you might want to read the general concepts that apply to [all  filters](/#filters) within VitaSite. The following steps show how to insert a photo feature filter onto a page:
 
 ### Filters Step One
 
@@ -73,7 +73,7 @@ Choose “Photo feature Filter” from the list in the page insertion wizard.
 ![Figure 4.](img/feature_figure_4.png)
 *Figure 4*
 
-This step shows two panes as seen in **Figure 4**.
+This step involves two panes as seen in **Figure 4**.
 
 * **Select the groups to filter** - In the left pane, select the group(s) you want to pull items from by placing a checkmark next to the group name.
 * **Max items to display** - In the right pane, enter the number of items that you want to display.
