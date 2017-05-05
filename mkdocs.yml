@@ -5,6 +5,7 @@ pages:
 - 'Content Items': content.md
 - 'Media Uploads': upload.md
 - 'Photo Features': feature.md
+- 'Email Form Builder': form.md
 extra_css:
 - css/extra.css
 theme: readthedocs

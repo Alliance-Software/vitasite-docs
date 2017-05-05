@@ -2,7 +2,7 @@
 
 Content Items make up the bulk of the text on your site. Pages serve as placeholders, providing an address to which a user can navigate and save a bookmark. Content items are the filler on those pages. You can place multiple content items on a page, and you can use one content item on many pages. When you change a content item, it is automatically updated in all the pages where it is used on your site.
 
-The Content Editor tool is used to create content items, edit content properties, edit the content itself, and delete content items. You can access the Content Editor by clicking on the “Content Items” link in the left navigation bar, within the "Content" section on any administrative page. Alternatively, you can click on the “Content Items" link in the body of the main administrative screen.
+The Content Editor tool is used to create content items, edit content properties, edit the content itself, and delete content items. You can access the Content Editor by selecting the “Content Items” link in the left navigation bar, within the "Content" section on any administrative page. Alternatively, you can click on the “Content Items" link in the body of the main administrative screen.
 
 ![Figure 1.](img/content_figure_1.png)
 *Figure 1*
@@ -218,7 +218,7 @@ This step shows two panes, as displayed above in **Figure 9**.
 * **Hide dates** - Choose whether or not to show the content item's date. The content item will show the "Publish Date" value unless empty, in which case it will use the date the content item was created.
 * **Show associated images** - Allows the "Image Upload" featured image to be shown alongside the content item, if designated. You also have a choice if the image appears to the left, right, above or below the content filter item. If the filter is set to show images but an item does not have an assoicated upload, it will not display an image.
 * **Filter Heading** - The headline you want to display over this content on the page.
-* **'More' link URL** - Allows the admin to create a link to another page where the user can find additonal content.
+* **'More' link URL** - Allows the admin to create a link to another page where the user can find additional content.
 * **'More' link text** - Allows the admin to override the 'More' default text to a custom string.
 * **Tags to include** - If enabled, tags allow the filter to be further refined, only showing content items that match tags designated within the filtered groups. This feature allows the admin to limit content items to relevant ones, especially if a site is pulling content in from a much larger repository of content from another site.
 
