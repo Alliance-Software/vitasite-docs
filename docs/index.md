@@ -6,6 +6,8 @@ So relax. If you know how to use a word processor, then you already know most of
 
 VitaSite is also extremely robust and powerful. VitaSite technology is in use on sites that handle millions of page views per day. As your web needs grow, rest assured that VitaSite can handle your new requirements.
 
+<div class="embed-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKV8B9rnUwl3aQm04vqihIkcSqf5UDULI" frameborder="0" allowfullscreen></iframe></div>
+
 ## Simple Tools You Can Use from Anywhere
 
 We built the VitaSite Content Management System around simple, browser-based tools that you can use from any computer that has an Internet connection. In this way, you can update your website from your office, your kitchen table, or from a hotel room halfway around the world. It requires no special desktop software. If you have Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, Apple Safari, or just about any other modern web browser, then you have all the software you need.
