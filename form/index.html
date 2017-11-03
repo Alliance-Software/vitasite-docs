@@ -150,32 +150,57 @@
 <ul>
 <li><strong>Edit</strong> Similar to other tools, this allows editing of the form settings. However, the actual form is built within the <em>detail</em> section. Clicking save from this screen will automatically take you to the form field editor. These settings are described in <a href="#step-one-form-settings">Step 1</a>. As soon as you complete your edits, the form will be updated on all the pages of your site on which it is used.</li>
 <li><strong>Detail</strong> Allows the administrator to edit the form fields. Defining fields is described in <a href="#step-two-defining-fields">Step 2</a>. As soon as you complete your edits, the form will be updated on all the pages of your site on which it is used.</li>
-<li><strong>View Submissions</strong> This tool allows the administrator to view and manage all submissions to the form.</li>
-<li><strong>Export Submissions</strong> This tool exports all submissions to the form in a <abbr title="Comma-separated values">CSV</abbr> file. This file type can be opened in most spreadsheet or database applications.</li>
+<li><strong>Submissions</strong> This tool allows the administrator to view and manage all submissions to the form.</li>
+<li><strong>Export</strong> This tool exports all submissions to the form in a <abbr title="Comma-separated values">CSV</abbr> file. This file type can be opened in most spreadsheet or database applications.</li>
 <li><strong>Clone</strong> Cloning a form allows you to make and exact duplicate of the form without any submissions. Useful for situations where you might want to separate out past submissions, in the case of a yearly registration form. The newly created form will appear in your list as "Clone of X" where X is the name of the cloned form. Note: the original form name may be truncated due to length restrictions.</li>
 <li><strong>Report</strong> A powerful reporting tool, where the administrator can create on-demand reporting based on a number of factors as well as setting up reports to be emailed on a regular basis.</li>
 </ul>
 <h2 id="creating-forms">Creating Forms</h2>
 <p>To create a new Email Form, click the “New Form” link at the top of the page.</p>
 <h3 id="step-one-form-settings">Step One: Form Settings</h3>
-<p>The first page allows you to set the following properties of the Email Form:</p>
+<p>The first page allows you to set the following properties of the Email Form (see Figure 2):</p>
+<p><img alt="Figure 2." src="../img/form_figure_2.png" />
+<em>Figure 2</em></p>
 <ul>
-<li><strong>Form Title</strong> This field allows you to set a title for identifying the form. This title is used in the administrative tools; it appears above the form on the web-site; and it is used in the subject line of the email sent when a user submits the form.</li>
-<li><strong>Email Address form will be set to</strong> This field allows you to set the email address the form results should be sent to. When a user clicks the “submit” button, the data they entered on the form will be included in the body of the email.</li>
-<li><strong>Live</strong> This checkbox determines whether this email form can be seen by your site visitors. If the email form is not live (the box is not checked), then visitors to your site will not see this email form. Once you make the email form live (by checking the box and saving your changes), VitaSite™ will make it available for your web site visitors to see. This functionality allows you to work with an email form in the administrative tools until you get it finished, without making it available on the site until it is ready.</li>
-<li><strong>Form Description or Instructions</strong> This field allows you to provide information about the form, or instructions on how to use the form, to your site visitors.</li>
-<li><strong>Text to Display after Submission</strong> This field allows you to provide a submission confirmation message to your site visitors. This text will be displayed after the user clicks the “Submit” button on your form. When you have completed these fields, click the “Save &amp; Continue” button to proceed to the next page. This page allows you to setup the actual fields that appear on the form.</li>
+<li><strong>Form Title</strong> – This field allows you to set a title for identifying the form. This title is used in the administrative tools; it appears above the form on the web-site; and it is used in the subject line of the email sent when a user submits the form.</li>
+<li><strong>Email Address form will be set to</strong> – This field allows you to set the email address the form results should be sent to. When a user clicks the “submit” button, the data they entered on the form will be included in the body of the email.</li>
+<li><strong>Live</strong> – This checkbox determines whether this email form can be seen by your site visitors. If the email form is not live (the box is not checked), then visitors to your site will not see this email form. Once you make the email form live (by checking the box and saving your changes), VitaSite™ will make it available for your web site visitors to see. This functionality allows you to work with an email form in the administrative tools until you get it finished, without making it available on the site until it is ready.</li>
+<li><a href="../#private"><strong>Private</strong></a> – This check box is only available in a multiple sites installation of VitaSite. If this box is checked, the selected form item can only be used on the site in which it is created. If this box is unchecked, it will be made available for use on other sites in the installation.</li>
+<li><strong>Start Date</strong> – This is an optional field used to determine when a form should begin taking submissions. Leave this field blank to begin taking submissions immediately.</li>
+<li><strong>End Date</strong> – This is an optional field used to determine when a form should stop taking submissions. Leave this field blank to take submissions indefinitely.</li>
+<li><strong>Description</strong> – This field allows you to provide information about the form, or instructions on how to use the form, to your site visitors. This field honors whitespace returns. You may also use <abbr title="Hypertext Markup Language">HTML</abbr> in this field. The description is displayed between the form title and the question fields.</li>
+<li><strong>Text to Display after Submission</strong> – This field allows you to provide a submission confirmation message to your site visitors. This text will be displayed after the user clicks the “Submit” button on your form.</li>
+<li><strong>Custom label for submit button</strong> - Use this field to change the "Submit" button text to a custom value. When blank, the default of "Submit Form" will be shown.</li>
+<li><strong>Use <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></strong> - Show the challenge question at the end of the form to deter non-human submissions. It is suggested to use the <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> for any form that is publicly accessible to deter false submissions.</li>
+<li><strong>Total Entries Allowed (0 for unlimited)</strong> - Restrict the amount of submissions that a form can accept. When the limit is reached, the message "We are sorry, but this form has reached capacity and is no longer accepting submissions." will be displayed.</li>
+<li><strong>Do not deliver via email</strong> - When you enable this option, the Admin Email address will not be notified when a user submits the form. <strong>NOTE:</strong> at least one email address is still required in the "Email" field above. The first field on the form will be used as the reply email address.</li>
+<li><strong>Send reply</strong> - When enabled, allows an automatic email to be sent back to the submitter. <strong>NOTE:</strong> A Email Address field or a text field with "Email Address" as the description must be used to enable this feature.</li>
+<li><strong>Email From</strong> - The email address that the automatic email will come "from."</li>
+<li><strong>Email Subject</strong> - The email subject of the automatic email.</li>
+<li><strong>Reply Attachment</strong> - This field is optional. It allows you to attach an file to the email sent back to the submitter. This file must be uploaded to your media files first. <strong>NOTE:</strong> Many <abbr title="Internet Service Providers">ISPs</abbr> and Email Providers flag emails with large attachments as <abbr title="A form of junk or unsolicited email.">SPAM</abbr>. Please consider using a link to download your file rather than attaching it.</li>
+<li><strong>Email Body</strong> - The body of your message. This field accepts <abbr title="Hypertext Markup Language">HTML</abbr>.</li>
 </ul>
+<p>When you have completed these fields, click the <strong>Save &amp; Continue</strong> button to proceed to the next page. This page allows you to setup the actual fields that appear on the form.</p>
 <h3 id="step-two-defining-fields">Step Two: Defining Fields</h3>
 <p>When you first reach the field definition page, you will see a set of instructions explaining how to use these tools as shown in Figure 12. You can view these instructions at any time by selecting the “Instructions” option from the “Please choose the type of field you would like to add” menu.</p>
 <p>Using the tools on this page, you can create any of the following types of fields:</p>
+<h4 id="standard-field-types">Standard Field Types</h4>
 <ul>
-<li><strong>Text Box</strong> This field type allows you to provide a single- or multiple-line text area. This type is used to collect data such as name, address, or phone number.</li>
-<li><strong>Text Area</strong> Text area fields allow you provide the user a multi-line text field for longer entry.</li>
-<li><strong>Check Box</strong> This type allows you to provide a checkbox that can be used to collect yes/no type responses.</li>
-<li><strong>Radio Button</strong> This type allows you to provide a series or mutually exclusive options for a user to select from.</li>
-<li><strong>Select List</strong> This type allows you to provide a drop down menu of options for a user to select from.</li>
-<li><strong>Plain Text</strong> This type allows you to insert descriptive text or instructions in the middle of your form. It is not used to collect data.</li>
+<li><strong>Textbox</strong> - This field type allows you to provide a single-line text area. This type is used to collect data such as name, address, or phone number.</li>
+<li><strong>Textarea</strong> - Text area fields allow you provide the user a multi-line text field for longer entry.</li>
+<li><strong>Checkbox</strong> - This type allows you to provide a checkbox that can be used to collect yes/no type responses.</li>
+<li><strong>Radio Buttons</strong> - This type allows you to provide a series or mutually exclusive options for a user to select from. A comma-separated list is used to create each option in the question. You may also style the field to show the options horizontally or vertically.</li>
+<li><strong>Drop Down</strong> - This type allows you to provide a drop down menu of options for a user to select from. A comma-separated list is used to create each option in the question.</li>
+<li><strong>Plain Text</strong> - This type allows you to insert descriptive text or instructions in the middle of your form. It is not used to collect data.</li>
+<li><strong>File Upload</strong> - Allows a user to submit a single file along with the form. <strong>NOTE:</strong> Only one file upload field may be used on a single form, only one file may be uploaded at a time, and be cautious when opening submitted files as they are not checked for viruses.</li>
+</ul>
+<h4 id="special-field-types">Special Field Types</h4>
+<ul>
+<li><strong>Name Fields</strong> - Allows a user to submit their name on the form. The standard option captures the First and Last, while the expanded option additionally captures the salutation and suffix</li>
+<li><strong>Address Fields</strong> - Allows the user to submit their mailing address. There are no options on this field.</li>
+<li><strong>Email Field</strong> - Allows the user to submit an email address. This field can be used to verify the email address is entered the same way twice, by using the confirmation. Also "requiring" this field will require a valid email address to be submitted.</li>
+<li><strong>Sensitive Data Field</strong> - This field encrypts the data submitted on this field. It can only be viewed online and will not be exported or emailed. If the form contains a sensitive data field, the admin will not receive the form submission data via email, but will be provided a link to view it online.</li>
+<li><strong>Date Field</strong> - The date field allows the user to submit either a date, time or date and time.</li>
 </ul>
 <p>You can make any form field a required field by putting “_req” at the end of the field description. For example, to make the text box for email address a required field, change the description to “Email Address_req” in the form editor. The “_req” part will not be displayed to the users of your form. Instead, they will see an asterisk,
 indicating that a field is required.</p>
@@ -188,7 +213,9 @@ indicating that a field is required.</p>
 <li><strong>Delete:</strong> This button deletes this field from the form.</li>
 </ul>
 <p>Your work on the field definition page is saved as you make changes. Once you have completed your work on a form, you can go to another administrative page, or log out of the system.</p>
-<p>To edit an existing form, click on the “edit” link next to the form name. The process for editing your form is then the same as described above for creating a form.</p>
+<p>To edit an existing form, click on the “edit” link next to the form name to edit the form properties or "detail" to edit the form questions. The process for editing your form is then the same as described above for creating a form.</p>
+<p>You may also preview your work at any time by choose the link to "See what your form will look like..."</p>
+<p>You can link directly to your form by using the "preview" <abbr title="Universal Resource Locator">URL</abbr> above or by <a href="../page/#edit">adding your form to a page</a>.</p>
 <!--## Form Reports-->
               
             </div>
@@ -214,18 +241,18 @@ indicating that a field is required.</p>
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a href="https://github.com/Alliance-Software/vitasite-docs" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+          <a href="https://github.com/Alliance-Software/vitasite-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
         <span><a href="../feature/" style="color: #fcfcfc;">&laquo; Previous</a></span>
@@ -233,7 +260,10 @@ indicating that a field is required.</p>
       
     </span>
 </div>
+    <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
 
 </body>
 </html>
