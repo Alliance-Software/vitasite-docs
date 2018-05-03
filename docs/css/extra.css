@@ -1,4 +1,5 @@
 /* General Formatting */
+body {overflow: initial;}
 img + em {display: block;}
 /* Responsive Embed */
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 24px; } 
